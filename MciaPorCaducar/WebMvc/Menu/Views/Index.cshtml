@@ -1,0 +1,374 @@
+﻿@{
+    Layout = "~/Shared/Views/_Layoutsinmenu.cshtml";
+}
+
+<div class="ibox-content">
+    <div class="panel-body">
+        <div class="panel-group" id="accordion">
+            <div id="alertError" class="alert alert-danger alert-dismissible fade in" style="display:none">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <label class="textCapitalize">@Session["lblResult"]</label>
+            </div>
+
+            @{
+                int contador = 0;
+                foreach (var menu in ViewBag.listMenu)
+                {
+                    int index = 0;
+                    var idMenu = @menu.Id_Recurso;
+                    var colap = "#op" + @menu.Id_Recurso;
+                    var colap2 = "op" + @menu.Id_Recurso;
+                    <div class="panel panel-default">
+                        <a href="@colap" class="panel-title accordion-toggle" style="color:#333333">
+                            <div style="background:#f5f5f5" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="@colap" data-target="@colap">
+                                <h4 class="panel-title accordion-toggle textCapitalize">
+                                    @menu.Nombre
+                                </h4>
+                            </div>
+                        </a>
+
+                        <div id="@colap2" class="panel-collapse  @(contador == 0 ? "in" : "collapse")">
+                            <div class="panel-body">
+                                @foreach (var submenu in menu.subM)
+                                {
+                                    string clas = "";
+                                    if ((index % 2) == 0)
+                                    {
+                                        clas = "widget style1 navy-bg";
+                                    }
+                                    else
+                                    {
+                                        clas = "widget style1 navy-bg-danger";
+                                    }
+
+
+                                    <div class="row">
+                                        @for (int ind = 0; ind < submenu.Value.Count; ind++)
+                                        {
+                                            var item = submenu.Value[ind];
+
+
+                                            <div class="col-sm-3 col-md-3 col-lg-3" onclick="location.href=@Url.Action(item.accion, item.controlador)" style="cursor:pointer;">
+                                                <a href="@Url.Action(item.accion, item.controlador)" id="lnkNuevoApartado">
+                                                    <div class="@clas">
+                                                        <div class="row">
+                                                            <div class="col-xs-9 text-left vertical-align top">
+                                                                <h3>
+                                                                    <span style="color:white;font-size:15px" class="textCapitalize">@item.Nombre</span>
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        }
+                                    </div>
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                    contador = 1;
+                }
+            }
+        </div>
+        <br />
+        <a href="#" id="B" onclick="CheckFocus();return false;" style="text-decoration:none;color:#ffffff;"></a>
+
+        <input type="hidden" id="FocusOn" name="FocusOn" value="inNav" />
+        <input id="flagOpcion" value="Principal" style="visibility:hidden" />
+        <input id="flagError" value="@Session["flagError"]" style="visibility:hidden" />
+    </div>
+</div>
+
+
+@*<div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+
+            </div>
+            <div class="col-sm-4">
+                <h3>@Session["App"]</h3>
+
+            </div>
+            <div class="col-sm-4">
+
+            </div>
+        </div>
+    </div>*@
+
+
+@*<div class="row">
+
+        <button type="button" onclick="btn_click(event)" class="btn btn-default navbar-btn">Sign in</button>
+    </div>*@
+
+@*<div class="ibox-content">
+        <div class="panel-body">
+            <div class="panel-group" id="accordion">
+                <div id="alertError" class="alert alert-danger alert-dismissible fade in" style="display:none">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <label class="textCapitalize">@Session["lblResult"]</label>
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading" data-parent="#accordion" data-toggle="collapse" data-target="#collapseOne">
+                        <h4 class="panel-title accordion-toggle">
+                            Capturas
+                        </h4>
+
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <div class="row">
+
+                                <div class="col-xs-3">
+                                    <a href="@Url.Action("mAutorizaMerma", "MciaPorCaducar")" id="lnkNuevoApartado">
+                                        <div class="widget style1 navy-bg">
+                                            <div class="row">
+                                                <div class="col-xs-9 text-left vertical-align top">
+                                                    <h3>
+
+                                                        <span class="spanrespon">1.-Autorizar Merma</span>
+
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <a href="@Url.Action("mCapturaMcia", "MciaPorCaducar")" id="lnkNuevoApartado">
+                                        <div class="widget style1 navy-bg">
+                                            <div class="row">
+                                                <div class="col-xs-9 text-left vertical-align top">
+                                                    <h3>
+
+                                                        <span class="spanrespon">2.-Captura Mcía Caduc</span>
+
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <br />
+
+        </div>
+    </div>*@
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">*** ERROR EN SISTEMA ***</h4>
+            </div>
+            <div class="modal-body">
+                <h2 id="labelError">  </h2>
+            </div>
+
+        </div>
+    </div>
+</div>
+<input id="urlDestino" name="urlDestino" value="" style="visibility:hidden" />
+<a href="#" id="B" onclick="CheckFocus();return false;" style="text-decoration:none;color:#ffffff;"></a>
+<input type="hidden" id="FocusOn" name="FocusOn" value="menuOption" />
+<input type="hidden" id="siHayError" value="@Session["flagOpcion"]" />
+<input type="hidden" id="msjError" value="@Session["lblResult"]" />
+
+
+<script>
+    (function () {
+        if (document.getElementById("siHayError").value == "Error") {
+            document.getElementById("alertError").style.display = "block";
+            //alert(document.getElementById("msjError").value);
+        }
+        else {
+            document.getElementById("alertError").style.display = "none";
+        }
+    })();
+
+
+
+    function btn_click(e) {
+
+
+        $.ajax({
+            url: '@Url.Action("PruebaCatch", "Menu")',
+            async: false,
+            data: {
+
+            },
+            type: "POST",
+            success: function (data) {
+
+
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                document.getElementById("labelError").value = errorThrown;
+                //debugger;
+                //alert(errorThrown);
+
+                document.getElementById("labelError").innerHTML = errorThrown;
+
+                $("#myModal2").modal();
+
+            }
+        });
+
+    }
+
+
+    function optionSelected_onkeydown(e) {
+        var valueOption = $("#optionSelected").val();
+
+        if (e.which == 27) {
+
+
+            $("#myModal3").modal();
+        }
+        else {
+            if (e.which == 13) {
+
+                switch (valueOption) {
+                    case "1":
+                        var elemento = document.getElementById("collapseOne");
+                        elemento.className = "collapse in";
+                        var elemento = document.getElementById("collapseTwo");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseThree");
+                        elemento.className = "collapse";
+
+
+                        break;
+                    case "11":
+                        var url = '@Url.Action("AltaRegistro_11", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "12":
+                        var url = '@Url.Action("EtiquetasMarcaje_12", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "13":
+                        var url = '@Url.Action("CodigoSeleccionado_13", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "14":
+                        var url = '@Url.Action("CodigoSeleccionado_14", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "2":
+                        var elemento = document.getElementById("collapseOne");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseTwo");
+                        elemento.className = "collapse in";
+
+                        var elemento = document.getElementById("collapseThree");
+                        elemento.className = "collapse";
+
+                        break;
+                    case "3":
+                        var elemento = document.getElementById("collapseOne");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseTwo");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseThree");
+                        elemento.className = "collapse in";
+
+                        break;
+                    default:
+                        Console.WriteLine("Default case");
+                        break;
+                }
+            }
+        }
+    }
+
+    function busquedaApartado() {
+        var _paramBusqueda = $("#ddlSrcApartado").val();
+        var _srchApartado = $("#srchApartado").val();
+        var _origen = "1";
+        //string origen, string paramBusqueda, string valorBusqueda
+        $.ajax({
+            url: '@Url.Action("Busqueda", "Menu")',
+            "type": "POST",
+            "cache": false,
+            "data":
+            {
+                "origen": _origen
+                , "paramBusqueda": _paramBusqueda
+                , "valorBusqueda": _srchApartado
+            },
+            "dataType": "json",
+            "success": function (data) {
+                window.location.href = "/BusquedaApartado";
+            }
+
+        });
+    }
+
+    function busquedaCliente() {
+        srchCliente
+        var _paramBusqueda = $("#ddlSrcCliente").val();
+        var _srchCliente = $("#srchCliente").val();
+        var _origen = "2";
+        //string origen, string paramBusqueda, string valorBusqueda
+        $.ajax({
+            url: '@Url.Action("Busqueda", "Menu")',
+            "type": "POST",
+            "cache": false,
+            "data":
+            {
+                "origen": _origen
+                , "paramBusqueda": _paramBusqueda
+                , "valorBusqueda": _srchCliente
+            },
+            "dataType": "json",
+            "success": function (data) {
+                window.location.href = "/Clientes";
+            }
+
+        });
+    }
+    function busquedaUbicacionAlm() {
+        srchApartado
+        var _paramBusquedaalm = $("#ddlSrcUbicacionalm").val();
+        var _srchUbicacionalm = $("#srchUbicacionalm").val();
+        var _origen = "3";
+        //string origen, string paramBusqueda, string valorBusqueda
+        $.ajax({
+            url: '@Url.Action("Busqueda", "Menu")',
+            "type": "POST",
+            "cache": false,
+            "data":
+            {
+                "origen": _origen
+                , "paramBusquedaalm": _paramBusquedaalm
+                , "valorBusquedaalm": _srchUbicacionalm
+            },
+            "dataType": "json",
+            "success": function (data) {
+                window.location.href = "/Ubicacion";
+            }
+
+        });
+    }
+</script>

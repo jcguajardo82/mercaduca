@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/Scripts/js")
+</head>
+<body onload="checkbody()">
+    @*<hr style="height: 30px;color: red;border-color:red" />*@
+    <div class="barra"></div>
+    <div class="parent-style-one">
+
+        <table>
+            <tr><td><span class="input-group-addon" id="basic-addon1">Opción</span></td><td><input type="text" id="menuOption" name="menuOption" onkeypress="menuOption_onkeypress(event); return soloNumeros(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1"></td></tr>
+        </table>
+
+
+        <div>
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
+
+
+<script>
+
+    function checkbody() {
+        document.getElementById("menuOption").focus();
+    }
+
+    function menuOption_onkeypress(e) {
+        var valueOption = document.getElementById("menuOption").value;
+        var keyCode = e.keyCode ? e.keyCode : e.which;
+        switch (keyCode) {
+            //enter
+            case 13:
+                switch (valueOption) {
+                    case "0":
+                        var url = '@Url.Action("Inicio")';
+                        window.location.href = url;
+                        break;
+                    case "1":
+                        var url = '@Url.Action("EntreTiendas", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                    case "2":
+                        var url = '@Url.Action("EntreDepto", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                    case "3":
+                        var url = '@Url.Action("EntreCodigos", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                    case "4":
+                        var url = '@Url.Action("Mermas", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                    case "5":
+                        var url = '@Url.Action("AutTranfMerma", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                    case "6":
+                        var url = '@Url.Action("Inicio_6_1", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "61":
+                        var url = '@Url.Action("SalidaDePiso", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                    case "62":
+                        var url = '@Url.Action("EntradaAPiso", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                    case "63":
+                        var url = '@Url.Action("ConsultaCambiosFis", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                    case "7":
+                        var url = '@Url.Action("Inicio_7_1", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "71":
+                        var url = '@Url.Action("SolNueva", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                    case "72":
+                        var url = '@Url.Action("SurtirSol", "TransfMerma")';
+                        window.location.href = url;
+                        break;
+                }
+                break;
+                //esc
+            case 27:
+                var url = '@Url.Action("Inicio")';
+                window.location.href = url;
+                break;
+        }
+    }
+</script>

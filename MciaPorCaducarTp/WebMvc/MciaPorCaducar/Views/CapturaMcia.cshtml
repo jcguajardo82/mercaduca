@@ -1,0 +1,938 @@
+﻿@{
+    Layout = "~/Shared/Views/_Layout.cshtml";
+}
+
+<form id="formCapturaMcia" class="form" action="@Url.Action("CapturaMcia", "MciaPorCaducar")" method="get">
+    <div id="Error" style="display:none;color:white;">
+        <p class="groove">
+            @TempData["lblResult"]
+            <br />
+            <input id="btnOk" type="button" class="btn btn-default btn-sm" style="width: 50%" onkeypress="myFuncionOK()" onclick="myFuncionOK()" value="OK" />
+        </p>
+    </div>
+
+    @*Pantalla 1*@
+    <div id="Principal" style="display:none">
+
+        <table>
+            <tr>
+                <td><label>Folio:</label></td>
+                <td><label>@TempData["FolMcia"]</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><input type="text" id="inArt" name="inArt" onkeyup="KeyPressedSubmit('inArt')" onkeypress="return soloDecimal(event, this)" class="inputCodigo" placeholder="12344553" aria-describedby="sizing-addon3"></td></tr>
+        </table>
+
+    </div>
+
+    @*Pantalla 2*@
+    <div id="Lote" style="display:none">
+        <table>
+            <tr>
+                <td><label>Folio:</label></td>
+                <td><label>@TempData["FolMcia"]</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><label class="textCapitalize">@TempData["DescCod"]</label></td></tr>
+            <tr>
+                <td colspan="2"><label>Lote:</label></td>
+            </tr>
+            <tr><td colspan="2"><input type="text" id="inLot" name="inLot" onkeyup="KeyPressedSubmit('inLot')" placeholder="12344553" aria-describedby="sizing-addon3" /></td></tr>
+        </table>
+    </div>
+
+    @*Pantalla 3*@
+    <div id="LoteReg" style="display:none">
+
+        <table>
+            <tr><td colspan="2"><label>El Articulo con el Número de Lote ya fue Registrado con una Cantidad de @TempData["CanCap"] Piezas ¿Desea Modificar la Cant?</label></td></tr>
+            @*<tr>
+                    <td><label>Opción</label></td>
+                    <td><input type="text" id="op" name="op" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressedSubmit('op')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" /></td>
+                </tr>
+                <tr><td colspan="2"><label>1.-SI    2.-NO</label></td></tr>*@
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op" name="op" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressedSubmit('op')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*Pantalla 4*@
+    <div id="FecCad" style="display:none">
+        <table>
+            <tr>
+                <td><label>Folio:</label></td>
+                <td><label>@TempData["FolMcia"]</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><label class="textCapitalize">@TempData["DescCod"]</label></td></tr>
+            <tr>
+                <td><label>Lote:</label></td>
+                <td><label>@TempData["Lote"]</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Fecha Caducidad:</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <label>(AaaaMmDd)</label></td>
+            </tr>
+            <tr><td colspan="2"><input type="text" id="inFec" name="inFec" maxlength="8" onkeyup="KeyPressedSubmit('inFec')" onkeypress="return soloNumeros(event)" placeholder="12344553" aria-describedby="sizing-addon3"></td></tr>
+        </table>
+    </div>
+
+    @*Pantalla 5*@
+    <div id="ConservaFec" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2"><label>La Fecha de Cad es una Fecha Pasada.</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Desea Conservar esa Fecha?</label></td>
+            </tr>
+            @*<tr>
+                    <td><label>Opción</label></td>
+                    <td><input type="text" id="op2" name="op2" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressedSubmit('op2')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" /></td>
+                </tr>
+                <tr><td colspan="2"><label>1.-SI    2.-NO</label></td></tr>*@
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op2" name="op2" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressedSubmit('op2')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*Pantalla 6*@
+    <div id="CoincideFec" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2"><label>La Fecha de Cad No coincide con el Sistema.</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Desea Conservar esa Fecha?</label></td>
+            </tr>
+            @*<tr>
+                    <td><label>Opción</label></td>
+                    <td><input type="text" id="op3" name="op3" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressedSubmit('op3')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" /></td>
+                </tr>
+                <tr><td colspan="2"><label>1.-SI    2.-NO</label></td></tr>*@
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op3" name="op3" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressedSubmit('op3')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*Pantalla 7*@
+    <div id="CapturaCant" style="display:none">
+        <table>
+            <tr>
+                <td><label>Folio:</label></td>
+                <td><label>@TempData["FolMcia"]</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><label class="textCapitalize">@TempData["DescCod"]</label></td></tr>
+            <tr>
+                <td><label>Lote:</label></td>
+                <td><label>@TempData["Lote"]</label></td>
+            </tr>
+            <tr>
+                <td><label>Fec Cad:</label></td>
+                <td><label>@TempData["FecCad"]</label></td>
+            </tr>
+            <tr>
+                <td><label>Cant:</label></td>
+                <td><input type="text" id="inCan" name="inCan" onkeyup="KeyPressedSubmit('inCan')" onkeypress="return soloNumeros(event)" placeholder="12344553" aria-describedby="sizing-addon3" /></td>
+            </tr>
+        </table>
+
+    </div>
+
+    @*Pantalla 8*@
+    <div id="NoCerrado" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2"><label>El Folio @TempData["FolMcia"] No Ha Sido Cerrado</label></td>
+            </tr>
+            <tr><td colspan="2"><label>Desea Cerrar el Folio de Captura?</label></td></tr>
+            @*<tr>
+                    <td><label>Opción</label></td>
+                    <td><input type="text" id="op4" name="op4" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressedSubmit('op4')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" /></td>
+                </tr>
+                <tr><td colspan="2"><label>1.-SI    2.-NO</label></td></tr>*@
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op4" name="op4" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressedSubmit('op4')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="#" id="B" onclick="CheckFocus();return false;" style="text-decoration:none;color:#ffffff;"></a>
+
+    <input type="hidden" id="FocusOn" name="FocusOn" value="@TempData["flagField"]" />
+    <input id="flagOpcion" value="@TempData["flagOpcion"]" style="visibility:hidden" />
+    <input id="flagError" value="@TempData["flagError"]" style="visibility:hidden" />
+</form>
+
+<script>
+    function KeyPressedSubmit(currentId) {
+        if (IsOperaMobile) {
+            //esc
+            if (event.keyCode == 83 || event.keyCode == 115) {
+                switch (currentId) {
+                    case "inArt":
+                        //Panatlla 8
+                        var elem = document.getElementById("Principal");
+                        elem.style.display = (false ? "block" : "none");
+                        var elem = document.getElementById("NoCerrado");
+                        elem.style.display = (true ? "block" : "none");
+                        document.getElementById(currentId).value = "";
+                        document.getElementById("op4").focus();
+                        break;
+                    case "inLot":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("CapturaMcia", "MciaPorCaducar")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    case "inFec":
+                        var elem = document.getElementById("FecCad");
+                        elem.style.display = (false ? "block" : "none");
+                        var elem = document.getElementById("Lote");
+                        elem.style.display = (true ? "block" : "none");
+                        document.getElementById(currentId).value = "";
+                        document.getElementById("inLot").focus();
+                        break;
+                    case "inCan":
+                        var elem = document.getElementById("CapturaCant");
+                        elem.style.display = (false ? "block" : "none");
+                        var elem = document.getElementById("FecCad");
+                        elem.style.display = (true ? "block" : "none");
+                        document.getElementById(currentId).value = "";
+                        document.getElementById("inFec").focus();
+                        break;
+                    case "op4":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("CapturaMcia", "MciaPorCaducar")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    default:
+
+                        break;
+                }
+            }
+                //enter
+            else {
+                switch (currentId) {
+                    case "op":
+                        var op = document.getElementById(currentId).value;
+                        switch (op) {
+                            case "1":
+                                //Pantalla 7
+                                var elem = document.getElementById("LoteReg");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("CapturaCant");
+                                elem.style.display = (true ? "block" : "none");
+
+                                document.getElementById(currentId).value = "";
+                                document.getElementById("inCan").focus();
+                                break;
+                            case "2":
+                                //Pantalla 2
+                                var elem = document.getElementById("LoteReg");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("Lote");
+                                elem.style.display = (true ? "block" : "none");
+
+                                document.getElementById(currentId).value = "";
+                                document.getElementById("inLot").focus();
+
+                                break;
+                            case "L":
+                            case "l":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("logOut", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "H":
+                            case "h":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("pagLog", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "0":
+                                var url = '@Url.Action("Inicio", "Menu")';
+                                window.location.href = url;
+                                break;
+                            default:
+                                document.getElementById(currentId).focus();
+                                break;
+                        }
+                        break;
+                    case "op2":
+                        var op = document.getElementById(currentId).value;
+                        switch (op) {
+                            case "1":
+                                document.getElementById("formCapturaMcia").submit();
+                                break;
+                            case "2":
+                                var elem = document.getElementById("ConservaFec");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("FecCad");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("op2").value = "";
+                                document.getElementById("inFec").focus();
+                                break;
+                            case "L":
+                            case "l":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("logOut", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "H":
+                            case "h":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("pagLog", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "0":
+                                var url = '@Url.Action("Inicio", "Menu")';
+                                window.location.href = url;
+                                break;
+                            default:
+                                document.getElementById(currentId).focus();
+                                break;
+                        }
+                        break;
+                    case "op3":
+                        var op = document.getElementById(currentId).value;
+                        switch (op) {
+                            case "1":
+                                var elem = document.getElementById("CoincideFec");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("CapturaCant");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("inCan").focus();
+                                break;
+                            case "2":
+                                var elem = document.getElementById("ConservaFec");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("FecCad");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("inFec").focus();
+                                break;
+                            case "L":
+                            case "l":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("logOut", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "H":
+                            case "h":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("pagLog", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "0":
+                                var url = '@Url.Action("Inicio", "Menu")';
+                                window.location.href = url;
+                                break;
+                            default:
+                                document.getElementById(currentId).focus();
+                                break;
+                        }
+                        break;
+                    case "inCan":
+                        if (document.getElementById(currentId).value != "") {
+                            if (parseFloat(document.getElementById(currentId).value) > 0) {
+                                document.getElementById("formCapturaMcia").submit();
+                            }
+                            else {
+                                document.getElementById(currentId).focus();
+                            }
+                        }
+                        else {
+                            document.getElementById(currentId).focus();
+                        }
+                        break;
+                    case "op4":
+                        var op = document.getElementById(currentId).value;
+                        switch (op) {
+                            case "1":
+                            case "2":
+                                document.getElementById("formCapturaMcia").submit();
+                                break;
+                            case "L":
+                            case "l":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("logOut", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "H":
+                            case "h":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("pagLog", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "0":
+                                var url = '@Url.Action("Inicio", "Menu")';
+                                window.location.href = url;
+                                break;
+                            default:
+                                document.getElementById(currentId).focus();
+                                break;
+                        }
+                        break;
+                    default:
+                        if (document.getElementById(currentId).value != "") {
+                            document.getElementById("formCapturaMcia").submit();
+                        }
+                        else {
+                            document.getElementById(currentId).focus();
+                        }
+                        break;
+                }
+            }
+        }
+            //OTRO NAVEGADOR
+        else {
+            if (event.keyCode == 13) {
+                switch (currentId) {
+                    case "op":
+                        var op = document.getElementById(currentId).value;
+                        switch (op) {
+                            case "1":
+                                //Pantalla 7
+                                var elem = document.getElementById("LoteReg");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("CapturaCant");
+                                elem.style.display = (true ? "block" : "none");
+
+                                document.getElementById(currentId).value = "";
+                                document.getElementById("inCan").focus();
+                                break;
+                            case "2":
+                                //Pantalla 2
+                                var elem = document.getElementById("LoteReg");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("Lote");
+                                elem.style.display = (true ? "block" : "none");
+
+                                document.getElementById(currentId).value = "";
+                                document.getElementById("inLot").focus();
+
+                                break;
+                            case "L":
+                            case "l":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("logOut", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "H":
+                            case "h":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("pagLog", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "0":
+                                var url = '@Url.Action("Inicio", "Menu")';
+                                window.location.href = url;
+                                break;
+                            default:
+                                document.getElementById(currentId).focus();
+                                break;
+                        }
+                        break;
+                    case "op2":
+                        var op = document.getElementById(currentId).value;
+                        switch (op) {
+                            case "1":
+                                document.getElementById("formCapturaMcia").submit();
+                                break;
+                            case "2":
+                                var elem = document.getElementById("ConservaFec");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("FecCad");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("op2").value = "";
+                                document.getElementById("inFec").focus();
+                                break;
+                            case "L":
+                            case "l":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("logOut", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "H":
+                            case "h":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("pagLog", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "0":
+                                var url = '@Url.Action("Inicio", "Menu")';
+                                window.location.href = url;
+                                break;
+                            default:
+                                document.getElementById(currentId).focus();
+                                break;
+                        }
+                        break;
+                    case "op3":
+                        var op = document.getElementById(currentId).value;
+                        switch (op) {
+                            case "1":
+                                var elem = document.getElementById("CoincideFec");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("CapturaCant");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("inCan").focus();
+                                break;
+                            case "2":
+                                var elem = document.getElementById("ConservaFec");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("FecCad");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("inFec").focus();
+                                break;
+                            case "L":
+                            case "l":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("logOut", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "H":
+                            case "h":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("pagLog", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "0":
+                                var url = '@Url.Action("Inicio", "Menu")';
+                                window.location.href = url;
+                                break;
+                            default:
+                                document.getElementById(currentId).focus();
+                                break;
+                        }
+                        break;
+                    case "inCan":
+                        if (document.getElementById(currentId).value != "") {
+                            if (parseFloat(document.getElementById(currentId).value) > 0) {
+                                document.getElementById("formCapturaMcia").submit();
+                            }
+                            else {
+                                document.getElementById(currentId).focus();
+                            }
+                        }
+                        else {
+                            document.getElementById(currentId).focus();
+                        }
+                        break;
+                    case "op4":
+                        var op = document.getElementById(currentId).value;
+                        switch (op) {
+                            case "1":
+                            case "2":
+                                document.getElementById("formCapturaMcia").submit();
+                                break;
+                            case "L":
+                            case "l":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("logOut", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "H":
+                            case "h":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("pagLog", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "0":
+                                var url = '@Url.Action("Inicio", "Menu")';
+                                window.location.href = url;
+                                break;
+                            default:
+                                document.getElementById(currentId).focus();
+                                break;
+                        }
+                        break;
+                    default:
+                        if (document.getElementById(currentId).value != "") {
+                            document.getElementById("formCapturaMcia").submit();
+                        }
+                        else {
+                            document.getElementById(currentId).focus();
+                        }
+                        break;
+                }
+            }
+            else if (event.keyCode == 27) {
+                switch (currentId) {
+                    case "inArt":
+                        //Panatlla 8
+                        var elem = document.getElementById("Principal");
+                        elem.style.display = (false ? "block" : "none");
+                        var elem = document.getElementById("NoCerrado");
+                        elem.style.display = (true ? "block" : "none");
+                        document.getElementById(currentId).value = "";
+                        document.getElementById("op4").focus();
+                        break;
+                    case "inLot":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("CapturaMcia", "MciaPorCaducar")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    case "inFec":
+                        var elem = document.getElementById("FecCad");
+                        elem.style.display = (false ? "block" : "none");
+                        var elem = document.getElementById("Lote");
+                        elem.style.display = (true ? "block" : "none");
+                        document.getElementById(currentId).value = "";
+                        document.getElementById("inLot").focus();
+                        break;
+                    case "inCan":
+                        var elem = document.getElementById("CapturaCant");
+                        elem.style.display = (false ? "block" : "none");
+                        var elem = document.getElementById("FecCad");
+                        elem.style.display = (true ? "block" : "none");
+                        document.getElementById(currentId).value = "";
+                        document.getElementById("inFec").focus();
+                        break;
+                    case "op4":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("CapturaMcia", "MciaPorCaducar")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    default:
+
+                        break;
+                }
+            }
+        }
+    }
+
+    function funReady() {
+
+        var form = document.getElementById("flagOpcion").value;
+        if (form != "") {
+            var ele = document.getElementById(form);
+            if (ele.style.display == "block") {
+                ele.style.display = "none";
+            }
+            else {
+                ele.style.display = "block";
+            }
+        }
+
+        switch (form) {
+            //case "Principal":
+            //    document.getElementById("inArt").focus();
+            //    break;
+            //case "Lote":
+            //    document.getElementById("inLot").focus();
+            //    break;
+            //case "FecCad":
+            //    document.getElementById("inFec").focus();
+            //    break;
+            //case "LoteReg":
+            //    document.getElementById("op").focus();
+            //    break;
+            //case "ConservaFec":
+            //    document.getElementById("op2").focus();
+            //    break;
+            //case "CoincideFec":
+            //    document.getElementById("op3").focus();
+            //    break;
+            //case "CapturaCant":
+            //    document.getElementById("inCan").focus();
+            //    break;
+            //case "NoCerrado":
+            //    document.getElementById("op4").focus();
+            //    break;
+            default:
+                SetFocus();
+                // document.getElementById("inArt").focus();
+                break;
+        }
+
+
+        abrirError("flagOpcion");
+
+        for (i = 0; i < 11; i++) {
+            if (i == 10) {
+                document.getElementById("FocusOn").focus();
+            }
+        }
+    }
+
+    function func_onkeypress(e, inputName) {
+        var keyCode = e.keyCode ? e.keyCode : e.which;
+        switch (keyCode) {
+            //enter
+            case 13:
+                switch (inputName) {
+                    case "inArt":
+                        if (document.getElementById("inArt").value != "") {
+                            document.getElementById("formCapturaMcia").submit();
+                        }
+                        else {
+                            document.getElementById("inArt").focus();
+                        }
+                        break;
+                    case "inLot":
+                        if (document.getElementById("inLot").value != "") {
+                            document.getElementById("formCapturaMcia").submit();
+                        }
+                        else {
+                            document.getElementById("inLot").focus();
+                        }
+                        break;
+                    case "op":
+                        var op = document.getElementById("op").value;
+                        switch (op) {
+                            case "1":
+                                //Pantalla 7
+                                var elem = document.getElementById("LoteReg");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("CapturaCant");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("inCan").focus();
+                                break;
+                            case "2":
+                                //Pantalla 2
+                                var elem = document.getElementById("LoteReg");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("Lote");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("inLot").focus();
+
+                                break;
+                            default:
+                                document.getElementById("op").focus();
+                                break;
+                        }
+                        break;
+                    case "inFec":
+                        if (document.getElementById("inFec").value != "") {
+                            document.getElementById("formCapturaMcia").submit();
+                        }
+                        else {
+                            document.getElementById("inFec").focus();
+                        }
+                        break;
+                    case "op2":
+                        var op = document.getElementById("op2").value;
+                        switch (op) {
+                            case "1":
+                                document.getElementById("formCapturaMcia").submit();
+                                break;
+                            case "2":
+                                var elem = document.getElementById("ConservaFec");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("FecCad");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("op2").value = "";
+                                document.getElementById("inFec").focus();
+                                break;
+                            default:
+                                document.getElementById("op2").focus();
+                                break;
+                        }
+                        break;
+                    case "op3":
+                        var op = document.getElementById("op3").value;
+                        switch (op) {
+                            case "1":
+                                var elem = document.getElementById("CoincideFec");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("CapturaCant");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("inCan").focus();
+                                break;
+                            case "2":
+                                var elem = document.getElementById("ConservaFec");
+                                elem.style.display = (false ? "block" : "none");
+                                var elem = document.getElementById("FecCad");
+                                elem.style.display = (true ? "block" : "none");
+                                document.getElementById("inFec").focus();
+                                break;
+                            default:
+                                document.getElementById("op3").focus();
+                                break;
+                        }
+                        break;
+                    case "inCan":
+                        if (document.getElementById("inCan").value != "") {
+                            if (parseInt(document.getElementById("inCan").value) > 0) {
+                                document.getElementById("formCapturaMcia").submit();
+                            }
+                            else {
+                                document.getElementById("inCan").focus();
+                            }
+                        }
+                        else {
+                            document.getElementById("inCan").focus();
+                        }
+                        break;
+                    case "op4":
+                        var op = document.getElementById("op4").value;
+                        switch (op) {
+                            case "1":
+                                document.getElementById("formCapturaMcia").submit();
+                                break;
+                            case "2":
+                                document.getElementById("formCapturaMcia").submit();
+                                break;
+                            default:
+                                document.getElementById("op4").focus();
+                                break;
+                        }
+                        break;
+                    default:
+                        document.getElementById("op").focus();
+                        break;
+                }
+
+                break;
+                //esc
+            case 27:
+                switch (inputName) {
+                    case "inArt":
+                        //Panatlla 8
+                        var elem = document.getElementById("Principal");
+                        elem.style.display = (false ? "block" : "none");
+                        var elem = document.getElementById("NoCerrado");
+                        elem.style.display = (true ? "block" : "none");
+                        document.getElementById("op4").focus();
+                        break;
+                    case "inLot":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("CapturaMcia", "MciaPorCaducar")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    case "op":
+
+                        break;
+                    case "inFec":
+                        var elem = document.getElementById("FecCad");
+                        elem.style.display = (false ? "block" : "none");
+                        var elem = document.getElementById("Lote");
+                        elem.style.display = (true ? "block" : "none");
+                        document.getElementById("inLot").focus();
+                        break;
+                    case "op2":
+
+                        break;
+                    case "op3":
+
+                        break;
+                    case "inCan":
+                        var elem = document.getElementById("CapturaCant");
+                        elem.style.display = (false ? "block" : "none");
+                        var elem = document.getElementById("FecCad");
+                        elem.style.display = (true ? "block" : "none");
+                        document.getElementById("inFec").focus();
+                        break;
+                    case "op4":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("CapturaMcia", "MciaPorCaducar")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    default:
+                        document.getElementById("inArt").focus();
+                        break;
+                }
+
+                break;
+        }
+    }
+</script>

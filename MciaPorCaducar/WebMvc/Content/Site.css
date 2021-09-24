@@ -1,0 +1,215 @@
+﻿/*@font-face {
+    font-family: 'Courier';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Courier.eot') format('eot');
+    src: url('../fonts/Courier.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Courier.woff') format('woff'),
+        url('../fonts/Courier.woff2') format('woff2'),
+        url('../fonts/Courier.ttf') format('truetype');
+}
+
+body {
+    font-family: Courier, Monospace;
+    font-size: 10px;
+}
+
+#menuOption {
+    width: 40px;
+    font-family: Courier, Monospace;
+}
+
+a, a:hover, a:link, a:visited, a:active {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: Courier, Monospace;
+    color:blue;
+}
+
+span {
+    font-family: Courier, Monospace;
+    font-size: 10px;
+}
+
+input {
+    font-family: Courier, Monospace;
+    font-size: 10px;
+    width: 90px;
+    max-width:200px;
+    min-width:30px;
+}
+select{
+    font-family: Courier, Monospace;
+    font-size: 10px;
+    width: 90px;
+
+    min-width:30px;
+}
+
+table {
+    font-family: Courier, Monospace;
+    font-size: 10px;
+}
+
+label {
+    font-family: Courier, Monospace;
+    font-size: 10px;
+}
+
+table td:first-child {
+    width: 35%;
+}
+
+table td:nth-child(2) {
+    width: 65%;
+}
+
+.barra{height: 30px;color: red; background-color:red;}
+.barraTitulo{color:#ffffff; font-weight:bold; margin-top:0px; background-color:red; height: 40px;}
+.barraTitulo table{ color:#ffffff;font-weight:bold;padding:5px;}
+p.groove {border-style: groove; padding:7px;color:white; font-weight:bold;text-align:center;}
+.inputCodigo{width:110px}
+.inputOpcion{width:30px}
+.inputSelect{width:170px}
+.form{margin-top:-1px}
+.widthColumns{}
+.widthColumns td:first-child {    width: 35%;}
+.widthColumns td:nth-child(2) {    width: 65%;}
+.prototipo td:first-child {    width: 100%;}
+.botonSalir{width: 20px;float: right;}
+.Error{    margin-top:5px;    }
+.labelError{font-weight:bold;font-size: 12px;}
+.tablaError{border-style: double none double none;text-align:center;}*/
+body {
+    font-size: 12px;
+}
+
+p.groove {
+    border-style: groove;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size:13px;
+    text-transform:capitalize;
+}
+
+.barraTitulo {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 0px;
+    background-color: red;
+    height: 40px;
+    padding: 5px;
+}
+
+    .barraTitulo label {
+        font-weight: 700;
+    }
+
+    .barraTitulo table {
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+.cont {
+    margin-left: 1px;
+    margin-top: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+
+a, a:visited, a:focus,a:hover {
+    font-size: 12px;
+    color: #5675E8;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+label {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.panel-title {
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.panel-body {
+    padding: 3px;
+    font-size: 12px;
+}
+
+.panel-heading {
+    padding: 5px;
+}
+
+.panel-success .panel-heading {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.myTooltip {
+    position: fixed;
+    right: 0;
+    z-index: 9999;
+    top: 20%;
+    width: 145px;
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #777777;
+    border-radius: 4px;
+}
+
+.folNvo {
+    text-decoration: underline;
+    color: #5675E8;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input {
+    font-size: 12px;
+    font-weight: normal;
+    width:90px;
+    max-width: 220px;
+}
+
+.container-fluid {
+    margin-top: 1px;
+}
+
+.panel-body{
+    margin-bottom:2px;
+}
+.panel{
+    margin-bottom:5px;
+}
+
+.textCapitalize {
+    text-transform: capitalize;
+}
+.pFol{
+    margin-top:20%;
+}
+.inputSelect{width:170px}
+#btnOk{
+    color:#000000;
+}
+#inNav{
+    width:25px;float: right;
+    color:#000000;
+}
+
+table td:first-child {
+    max-width: 35%;
+}
+
+table td:nth-child(2) {
+    max-width: 65%;
+}
+.inputCodigo{width:180px}

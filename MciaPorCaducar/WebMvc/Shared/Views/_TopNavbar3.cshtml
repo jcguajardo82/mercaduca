@@ -1,0 +1,85 @@
+﻿<div class="row border-bottom white-bg">
+    <nav class="navbar navbar-static-top" role="navigation">
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-sm-12">
+                <a href="@Session["urlLogin"]"><img src="~/Images/SORIANA_OFICIAL_blanco.png" style="width:30%;max-width: 200px;" /></a>
+
+                <span style="background-color: #fff;  border: 1px solid #E5E6E7; border-radius: 1px;color: inherit; font-size: 14px; font-weight: 400;line-height: 1; padding: 6px 12px; text-align: center;" id="basic-addon1">Opción</span>
+
+                <input type="text" id="inNav" name="inNav" onkeyup="Nav()" aria-describedby="basic-addon1" style="width: 25%;background-color: #FFFFFF;background-image: none;border: 1px solid #e5e6e7;border-radius: 1px;color: inherit;padding: 4px 1px;transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; font-size: 14px;margin-left: -5px;" />
+
+                <a href="@Url.Action("logOut", "Menu")" id="lblLogOut" style="width:9%;padding-top:8px;text-align:center;color:white;font-weight:600;cursor:pointer;"> Cerrar Sesión </a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<script>
+
+     function Nav() {
+            var IsOperaMobile = (navigator.userAgent.indexOf("Opera") >= 0) && (navigator.userAgent.indexOf("Mobile") >= 0);
+            var opcion = document.getElementById("inNav").value;
+
+            if (IsOperaMobile) {
+                switch (opcion) {
+                    case "L":
+                    case "l":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("logOut", "Menu")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    case "H":
+                    case "h":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("pagLog", "Menu")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    case "0":
+                        var url = '@Url.Action("Inicio","Menu")';
+                        window.location.href = url;
+                        break;
+                    case "1":
+                        var url = '@Url.Action("CapInv", "IgualCambio")';
+                        window.location.href = url;
+                        break;
+
+                }
+            }
+            else {
+                if (event.keyCode == 13) {
+                    switch (opcion) {
+                        case "L":
+                        case "l":
+                            var link = document.createElement('a');
+                            var url = '@Url.Action("logOut", "Menu")';
+                            link.href = url;
+                            document.body.appendChild(link);
+                            link.click();
+                            break;
+                        case "H":
+                        case "h":
+                            var link = document.createElement('a');
+                            var url = '@Url.Action("pagLog", "Menu")';
+                            link.href = url;
+                            document.body.appendChild(link);
+                            link.click();
+                            break;
+                        case "0":
+                            var url = '@Url.Action("Inicio","Menu")';
+                            window.location.href = url;
+                            break;
+                        case "1":
+                            var url = '@Url.Action("CapInv", "IgualCambio")';
+                            window.location.href = url;
+                            break;
+
+                    }
+                }
+            }
+        }
+
+</script>    

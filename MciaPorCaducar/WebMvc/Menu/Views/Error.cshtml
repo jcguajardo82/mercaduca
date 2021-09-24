@@ -1,0 +1,21 @@
+﻿@{
+    Layout = "~/Shared/Views/_LayoutOperaViews.cshtml";
+}
+
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <table>
+            <tr><td colspan="2" class="">===== ERROR =====</td></tr>
+
+            <tr><td colspan="2" class="alert alert-danger">@Session["errorInfo"]</td></tr>
+        </table>
+    </div>
+</div>
+
+
+<a href="#" id="B" onclick="CheckFocus();return false;" style="text-decoration:none;color:#ffffff;"></a>
+
+<input type="hidden" id="FocusOn" name="FocusOn" value="@Session["flagField"]" />
+<input id="flagOpcion" value="@Session["flagOpcion"]" style="visibility:hidden" />
+<input id="flagError" value="@Session["flagError"]" style="visibility:hidden" />

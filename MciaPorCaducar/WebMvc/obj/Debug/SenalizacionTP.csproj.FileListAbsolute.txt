@@ -1,0 +1,406 @@
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\ApplicationInsights.config
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\csc.exe
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\vbc.exe
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll.config
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\ReportViewerForMvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebGrease.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\FrameworkToolsDevelopment.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\cinetkit.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\log4net.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\log4net.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\SenalizacionTP.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.pdb
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\ApplicationInsights.config
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\csc.exe
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\vbc.exe
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll.config
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.pdb
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Pdf.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\ReportViewerForMvc.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebGrease.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Base.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\FrameworkToolsDevelopment.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\cinetkit.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\log4net.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.pdb
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.pdb
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.pdb
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.pdb
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Pdf.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.pdb
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Base.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\log4net.xml
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\SenalizacionTP.csprojResolveAssemblyReference.cache
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.dll
+C:\Proyectos\TFS\TFS_SORIANA_2\SEÑALIZACION\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.pdb
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\ApplicationInsights.config
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\csc.exe
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\vbc.exe
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll.config
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.pdb
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\ReportViewerForMvc.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebGrease.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Base.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\FrameworkToolsDevelopment.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\cinetkit.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\log4net.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.pdb
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.pdb
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.pdb
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.pdb
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Pdf.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.pdb
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Base.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\log4net.xml
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\SenalizacionTP.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.dll
+C:\Users\Allware Solutions\Documents\Respaldo\SEÑALIZACION_20170913\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Base.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Pdf.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Base.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\ApplicationInsights.config
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\csc.exe
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\vbc.exe
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll.config
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebMvc.pdb
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\ReportViewerForMvc.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\WebGrease.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Base.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\FrameworkToolsDevelopment.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\cinetkit.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\log4net.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.SqlServer.Types.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.pdb
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.pdb
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.pdb
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.pdb
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Pdf.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.pdb
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.Base.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\log4net.xml
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\SenalizacionTP.csprojResolveAssemblyReference.cache
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.dll
+C:\Users\t_hugocc\Documents\Visual Studio 2015\Projects\SEÑALIZACION\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.pdb
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\ApplicationInsights.config
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\csc.exe
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\vbc.exe
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll.config
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\WebMvc.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\WebMvc.pdb
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EO.Pdf.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\ReportViewerForMvc.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\WebGrease.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EO.Base.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\FrameworkToolsDevelopment.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\cinetkit.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\log4net.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.SqlServer.Types.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\DTSenalizacionSoriana.pdb
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EDSenalizacionSoriana.pdb
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\NGSenalizacionSoriana.pdb
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Antlr3.Runtime.pdb
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EO.Pdf.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.Web.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.ApplicationInsights.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Newtonsoft.Json.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\Soriana.FWK.pdb
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.Helpers.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.Mvc.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.Optimization.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\System.Web.Razor.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EO.Base.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EO.WebBrowser.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\EO.WebEngine.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\log4net.xml
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\obj\Debug\SenalizacionTP.csprojResolveAssemblyReference.cache
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.dll
+C:\Proyectos\TFS\TFS_PAQUETE4\Migracion_Movil\SenalizacionTienda\SenalizacionTP\obj\Debug\WebMvc.pdb

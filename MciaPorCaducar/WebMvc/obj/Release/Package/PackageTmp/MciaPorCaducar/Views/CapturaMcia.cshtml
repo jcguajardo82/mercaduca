@@ -1,0 +1,211 @@
+﻿@{
+    Layout = "~/Shared/Views/_LayoutOperaViews.cshtml";
+}
+
+<form id="formCapturaMcia" class="form" action="@Url.Action("CapturaMcia", "MciaPorCaducar")" method="get">
+    <div id="Error" style="display:none;color:white;">
+        <p class="groove">
+            <label id="ErrorMsjs"></label>
+            @Session["lblResult"]
+            <br />
+            <input id="btnOk" type="button" class="btn btn-default btn-sm" style="width: 50%" onkeypress="myFuncionOK()" onclick="myFuncionOK()" value="OK" />
+        </p>
+    </div>
+
+    @*Pantalla 1*@
+    <div id="Principal" style="display:none">
+
+        <table>
+            <tr>
+                <td><label>Folio:</label></td>
+                <td><label id="FolMcia">@Session["FolMcia"]</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><input type="text" id="inArt" name="inArt" onkeyup="KeyPressed('inArt','','formCapturaMcia')" onkeypress="return soloDecimal(event, this)" class="inputCodigo" placeholder="12344553" aria-describedby="sizing-addon3"></td></tr>
+        </table>
+
+    </div>
+
+    @*Pantalla 2*@
+    <div id="Lote" style="display:none">
+        <table>
+            <tr>
+                <td><label>Folio:</label></td>
+                <td><label>@Session["FolMcia"]</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><label class="textCapitalize" name="DescCod" id="DescCod"></label></td></tr>
+            <tr>
+                <td colspan="2"><label>Lote:</label></td>
+            </tr>
+            <tr><td colspan="2"><input type="text" id="inLot" name="inLot" onkeyup="KeyPressed('inLot','','formCapturaMcia')" placeholder="12344553" aria-describedby="sizing-addon3" /></td></tr>
+        </table>
+    </div>
+
+    @*Pantalla 3*@
+    <div id="LoteReg" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <label>El Articulo con el Número de Lote ya fue Registrado con una Cantidad de </label>
+                    <label id="CanCap"></label>
+                    <label> Piezas ¿Desea Modificar la Cant?</label>
+                </td>
+            </tr>
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op" name="op" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressed('op','','formCapturaMcia')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*Pantalla 4*@
+    <div id="FecCad" style="display:none">
+        <table>
+            <tr>
+                <td><label>Folio:</label></td>
+                <td><label>@Session["FolMcia"]</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><label class="textCapitalize" name="DescCod"></label></td></tr>
+            <tr>
+                <td><label>Lote:</label></td>
+                <td><label id="lblLote" name="lblLote"></label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Fecha Caducidad:</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <label>(AAAAMMDD)</label></td>
+            </tr>
+            <tr><td colspan="2"><input type="text" id="inFec" name="inFec" maxlength="8" onkeyup="KeyPressed('inFec','','formCapturaMcia')" onkeypress="return soloNumeros(event)" placeholder="12344553" aria-describedby="sizing-addon3"></td></tr>
+        </table>
+    </div>
+
+    @*Pantalla 5*@
+    <div id="ConservaFec" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2"><label>La Fecha de Cad es una Fecha Pasada.</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Desea Conservar esa Fecha?</label></td>
+            </tr>
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op2" name="op2" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressed('op2','','formCapturaMcia')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*Pantalla 6*@
+    <div id="CoincideFec" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2"><label>La Fecha de Cad No coincide con el Sistema.</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Desea Conservar esa Fecha?</label></td>
+            </tr>
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op3" name="op3" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressed('op3','','formCapturaMcia')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*Pantalla 7*@
+    <div id="CapturaCant" style="display:none">
+        <table>
+            <tr>
+                <td><label>Folio:</label></td>
+                <td><label>@Session["FolMcia"]</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><label class="textCapitalize" name="DescCod"></label></td></tr>
+            <tr>
+                <td><label>Lote:</label></td>
+                <td><label name="lblLote"></label></td>
+            </tr>
+            <tr>
+                <td><label>Fec Cad:</label></td>
+                <td><label id="FechaCad"></label></td>
+            </tr>
+            <tr>
+                <td><label>Cant:</label></td>
+                <td><input type="text" id="inCan" name="inCan" onkeyup="KeyPressed('inCan','','formCapturaMcia')" onkeypress="return soloNumeros(event)" placeholder="12344553" aria-describedby="sizing-addon3" /></td>
+            </tr>
+        </table>
+
+    </div>
+
+    @*Pantalla 8*@
+    <div id="NoCerrado" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2"><label>El Folio @Session["FolMcia"] No Ha Sido Cerrado</label></td>
+            </tr>
+            <tr><td colspan="2"><label>Desea Cerrar el Folio de Captura?</label></td></tr>
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op4" name="op4" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressed('op4','','formCapturaMcia')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="#" id="B" onclick="CheckFocus();return false;" style="text-decoration:none;color:#ffffff;"></a>
+
+    <input type="hidden" id="FocusOn" name="FocusOn" value="@Session["flagField"]" />
+    <input id="flagOpcion" value="@Session["flagOpcion"]" style="visibility:hidden" />
+    <input id="flagError" value="@Session["flagError"]" style="visibility:hidden" />
+</form>
+
+<script>
+
+  
+</script>

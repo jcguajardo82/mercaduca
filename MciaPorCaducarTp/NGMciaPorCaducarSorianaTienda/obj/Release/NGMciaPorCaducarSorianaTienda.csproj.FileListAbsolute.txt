@@ -1,0 +1,50 @@
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\NGMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\NGMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\DTMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\log4net.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Soriana.FWK.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\FrameworkToolsDevelopment.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\cinetkit.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Newtonsoft.Json.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\DTMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\log4net.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Newtonsoft.Json.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\obj\Release\NGMciaPorCaducarSorianaTienda.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\obj\Release\NGMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\obj\Release\NGMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\NGMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\NGMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\DTMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\log4net.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Soriana.FWK.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\FrameworkToolsDevelopment.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\cinetkit.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Newtonsoft.Json.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\DTMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\log4net.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\bin\Release\Newtonsoft.Json.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\obj\Release\NGMciaPorCaducarSorianaTienda.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\obj\Release\NGMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\NGMciaPorCaducarSorianaTienda\obj\Release\NGMciaPorCaducarSorianaTienda.pdb

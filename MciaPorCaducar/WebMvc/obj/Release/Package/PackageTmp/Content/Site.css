@@ -1,0 +1,113 @@
+﻿/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body {
+            font-size: 12px;
+            font-family: Consolas;
+        }
+label {
+            font-size: 12px;
+            font-family: Consolas;
+        }
+
+*/
+
+@font-face {
+    font-family: 'Courier';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Courier.eot') format('eot');
+    src: url('../fonts/Courier.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Courier.woff') format('woff'),
+        url('../fonts/Courier.woff2') format('woff2'),
+        url('../fonts/Courier.ttf') format('truetype');
+}
+
+body {
+    font-family: Courier, Monospace;
+    font-size: 9px;
+}
+
+#menuOption {
+    width: 40px;
+    font-family: Courier, Monospace;
+}
+
+a, a:hover, a:link, a:visited, a:active {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: Courier, Monospace;
+    color:blue;
+}
+
+span {
+    font-family: Courier, Monospace;
+    font-size: 9px;
+}
+
+input {
+    font-family: Courier, Monospace;
+    font-size: 9px;
+    width: 90px;
+    max-width:200px;
+    min-width:30px;
+}
+select{
+    font-family: Courier, Monospace;
+    font-size: 9px;
+    width: 90px;
+    /*max-width:200px;*/
+    min-width:30px;
+}
+
+table {
+    font-family: Courier, Monospace;
+    font-size: 9px;
+}
+
+label {
+    font-family: Courier, Monospace;
+    font-size: 9px;
+}
+
+table td:first-child {
+    width: 35%;
+}
+
+table td:nth-child(2) {
+    width: 65%;
+}
+/*.option{
+    width:40px
+}*/
+.barra{height: 30px;color: red; background-color:red;}
+.barraTitulo{color:#ffffff; font-weight:bold; margin-top:0px; background-color:red; height: 40px;}
+.barraTitulo table{ color:#ffffff;font-weight:bold;padding:5px;}
+p.groove {border-style: groove; padding:7px;color:white; font-weight:bold;text-align:center;}
+.inputCodigo{width:110px}
+.inputOpcion{width:30px}
+.inputSelect{width:170px}
+.form{margin-top:-1px}
+.widthColumns{}
+.widthColumns td:first-child {    width: 35%;}
+.widthColumns td:nth-child(2) {    width: 65%;}
+.prototipo td:first-child {    width: 100%;}
+.botonSalir{width: 20px;float: right;/*margin-top: -18px;margin-right: 2px;*/}
+.Error{    margin-top:5px;    }
+.labelError{font-weight:bold;font-size: 12px;}
+.tablaError{border-style: double none double none;text-align:center;}

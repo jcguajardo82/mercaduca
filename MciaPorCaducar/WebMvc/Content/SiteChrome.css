@@ -1,0 +1,26 @@
+﻿.textCapitalize {
+    text-transform: capitalize;
+}
+
+.panel-success .panel-heading {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+a, a:visited, a:focus, a:hover {
+    /*font-size: 12px;*/
+    color: #5675E8;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.bootbox-body {
+    text-transform: capitalize;
+}
+
+.fa  {
+    color: inherit;
+}
+.fa-reply{
+    color: inherit;
+}

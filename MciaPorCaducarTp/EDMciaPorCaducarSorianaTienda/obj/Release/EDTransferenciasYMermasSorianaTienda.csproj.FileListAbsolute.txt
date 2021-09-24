@@ -1,0 +1,5 @@
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\EDTransferenciasYMermasSorianaTienda\bin\Release\EDTransferenciasYMermasSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\EDTransferenciasYMermasSorianaTienda\bin\Release\EDTransferenciasYMermasSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\EDTransferenciasYMermasSorianaTienda\obj\Release\EDTransferenciasYMermasSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\EDTransferenciasYMermasSorianaTienda\obj\Release\EDTransferenciasYMermasSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\EDTransferenciasYMermasSorianaTienda\obj\Release\EDTransferenciasYMermasSorianaTienda.csprojResolveAssemblyReference.cache

@@ -1,0 +1,206 @@
+﻿@{
+    Layout = "~/Shared/Views/_LayoutOperaViews.cshtml";
+}
+
+<form id="formAutorizaMerma" class="form" action="@Url.Action("AutorizaMerma", "MciaPorCaducar")" method="get">
+    <div id="Error" style="display:none;color:white;">
+        <p class="groove">
+            <label id="ErrorMsjs"></label>
+            @Session["lblResult"]
+            <br />
+            <input id="btnOk" type="button" class="btn btn-default btn-sm" style="width: 50%" onkeypress="myFuncionOK()" onclick="myFuncionOK()" value="OK" />
+        </p>
+    </div>
+
+    @*Pantalla 1*@
+    <div id="Principal" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2"><label>Jefe Dpto:</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    @if (Session["cmb_JEFE"] != null)
+                    {
+                        @Html.DropDownList("cmb_JEFE", (SelectList)Session["cmb_JEFE"], new { @listplaceholder = "Seleccione", @onkeypress = "KeyPressed('cmb_JEFE','','formAutorizaMerma')", @onchange = "KeyPressed('cmb_JEFE','','formAutorizaMerma')", @style = "width: 200px;" })
+                    }
+                </td>
+            </tr>
+        </table>
+        <p class="pFol">Para salir de la opción haz clic <label class="folNvo" onclick="KeyPressed('cmb_JEFE', '', 'formAutorizaMerma')">aqui.</label></p>
+    </div>
+
+    @*Pantalla 2*@
+    <div id="CapArt" style="display:none">
+        <table>
+            <tr>
+                <td><label>Jefe Dpto:</label></td>
+                <td><label class="textCapitalize" id="NomJefe" name="NomJefe"></label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><input type="text" id="inArt" name="inArt" onkeyup="KeyPressed('inArt','','formAutorizaMerma')" onkeypress="return soloNumeros(event)" class="inputCodigo" placeholder="12344553" aria-describedby="sizing-addon3"></td></tr>
+
+        </table>
+
+    </div>
+
+    @*Pantalla 3*@
+    <div id="ModCant" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <label>El Articulo con el Número de Lote, ya fue Registrado con una Cant de </label>
+                    <label id="CantArt"></label>
+                    <label> piezas.</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Desea Modificar la Cantidad?</label></td>
+            </tr>
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op" name="op" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressed('op','','formAutorizaMerma')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*Pantalla 4*@
+    <div id="CapCantMerma" style="display:none">
+
+        <table>
+            <tr>
+                <td><label>Jefe Dpto:</label></td>
+                <td><label class="textCapitalize" name="NomJefe"></label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Articulo:</label></td>
+            </tr>
+            <tr><td colspan="2"><label class="textCapitalize" id="DesArt"></label></td></tr>
+            <tr>
+                <td><label>Lote:</label></td>
+                <td><label id="Lote"></label></td>
+            </tr>
+            <tr>
+                <td><label>Fec Cad:</label></td>
+                <td><label id="Fecha"></label></td>
+            </tr>
+            <tr>
+                <td><label>Exist:</label></td>
+                <td><label id="Existe"></label></td>
+            </tr>
+            <tr><td colspan="2">Cantidad a Mermar:</td></tr>
+            <tr><td colspan="2"><input type="text" id="inCan" name="inCan" onkeyup="KeyPressed('inCan','','formAutorizaMerma')" onkeypress="return soloDecimal(event,this)" placeholder="12344553" aria-describedby="sizing-addon3"></td></tr>
+        </table>
+
+    </div>
+
+    @*Pantalla 5*@
+    <div id="GenActa" style="display:none">
+
+        <table>
+            <tr>
+                <td colspan="2"><label>Se han Registrado Códigos para Merma</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Desea Generar el Acta de Destrucción?</label></td>
+            </tr>
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-SI    2.-NO</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op2" name="op2" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressed('op2','','formAutorizaMerma')" onkeypress="return soloOpciones(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    @*Pantalla 6*@
+    <div id="FolGen" style="display:none">
+
+        <table>
+            <tr>
+                <td colspan="2">
+                    <label>El Folio de Acta de Destrucción Asignado es el </label>
+                    <label id="NumActaDestruccion"></label>
+                    <label> con Fecha </label>
+                    <label id="FechaSKU"></label>
+                </td>
+            </tr>
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-CONTINUAR</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op3" name="op3" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressed('op3','','formAutorizaMerma')" onkeypress="return soloOpcionUnica(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @*Pantalla 7*@
+    <div id="NoGen" style="display:none">
+        <table>
+            <tr>
+                <td colspan="2"><label>No se Generó Folio de Acta Destrucción</label></td>
+            </tr>
+        </table>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <label class="panel-title">1.-CONTINUAR</label>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label>Opción</label>
+                        <input type="text" id="op4" name="op4" maxlength="1" onfocus="posicion(this);" onkeyup="KeyPressed('op4','','formAutorizaMerma')" onkeypress="return soloOpcionUnica(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" id="B" onclick="CheckFocus();return false;" style="text-decoration:none;color:#ffffff;"></a>
+
+    <input type="hidden" id="FocusOn" name="FocusOn" value="@Session["flagField"]" />
+    <input id="flagOpcion" value="@Session["flagOpcion"]" style="visibility:hidden" />
+    <input id="flagError" value="@Session["flagError"]" style="visibility:hidden" />
+    <input id="flagEsc" type="text" name="flagEsc" style="visibility:hidden" />
+</form>
+
+<script>
+
+    function funFolNvo(opcion) {
+        switch (opcion) {
+            case "MenuInicio":
+                document.getElementById("flagEsc").value = "Esc";
+                document.getElementById("formAutorizaMerma").submit();
+                break;
+        }
+    }
+
+
+</script>

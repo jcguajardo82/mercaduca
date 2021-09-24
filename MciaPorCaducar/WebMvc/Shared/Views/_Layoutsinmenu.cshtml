@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SorianaMVC | MciaPorCaducar</title>
+
+    @if (IsSectionDefined("Styles"))
+    {@RenderSection("Styles", required: false)}
+
+    <link href="@Url.Content("~/Scripts/plugins/jquery-ui/jquery-ui.css")" rel="stylesheet" type="text/css" />
+
+    @Styles.Render("~/font-awesome/css")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/ScriptsSite/js")
+</head>
+<body onload="funReady('','')" class="top-navigation pace-running pace-running pace-running pace-running">
+    <!-- Wrapper-->
+    <div id="wrapper" class="@Html.PageClass()">
+
+        <!-- Page wraper -->
+        <div id="page-wrapper" class="gray-bg @ViewBag.SpecialClass">
+
+            <!-- Top Navbar -->
+            @Html.Partial("_TopNavbar3")
+
+            <!-- Main view  -->
+            @RenderBody()
+            <input id="flagRedirec" value="@TempData["flagRedirec"]" style="visibility:hidden" />
+            <!-- Footer -->
+            @Html.Partial("_Footer")
+
+        </div>
+        <!-- End page wrapper-->
+        <input type="hidden" id="nombreSitio" value="@Session["srvName"]" />
+    </div>
+    <!-- End wrapper-->
+    <!-- Section for main scripts render -->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/plugins/slimScroll")
+    @Scripts.Render("~/bundles/inspinia")
+    @Scripts.Render("~/ReglasNegocio/js")
+    @Scripts.Render("~/plugins/bootbox")
+    @Styles.Render("~/ContentSiteChrome/css")
+
+    <!-- Handler for local scripts -->
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        //var IsOperaMobile = (navigator.userAgent.indexOf("Opera") >= 0) && (navigator.userAgent.indexOf("Mobile") >= 0)
+        var flagRedirec = document.getElementById('flagRedirec').value;
+        var actualUrl = window.location;
+        var finalURL = actualUrl.pathname;
+        if ((!navigator.userAgent.indexOf("Opera") >= 0) && (!navigator.userAgent.indexOf("Mobile") >= 0) && (flagRedirec == "0")) {
+            var nave= navigator.userAgent;
+            var url = finalURL+'?Navegador=parametro-id';
+              url = url.replace("parametro-id", nave);
+            window.location=url;
+        }
+    </script>
+
+</body>
+</html>

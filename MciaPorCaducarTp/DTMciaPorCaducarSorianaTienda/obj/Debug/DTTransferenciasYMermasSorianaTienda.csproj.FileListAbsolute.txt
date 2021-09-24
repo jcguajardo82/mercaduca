@@ -1,0 +1,16 @@
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\obj\Debug\DTTransferenciasYMermasSorianaTienda.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\DTTransferenciasYMermasSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\DTTransferenciasYMermasSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\FrameworkToolsDevelopment.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\cinetkit.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\log4net.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\obj\Debug\DTTransferenciasYMermasSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\obj\Debug\DTTransferenciasYMermasSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\TRANSFERENCIAS Y MERMAS\TransferenciasYMermas\DTTransferenciasYMermasSorianaTienda\bin\Debug\Newtonsoft.Json.xml

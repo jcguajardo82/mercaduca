@@ -1,0 +1,45 @@
+﻿@font-face {
+    font-family: 'Courier';
+    src: url('../fonts/Courier.ttf') format('truetype');
+}
+
+body{
+font-family: 'Courier';
+}
+
+.holder b {
+}
+
+.holder ~ span b {
+    background: red;
+}
+
+input[type="text"] {
+    font-size: 12px;
+    /*font-family: Consolas;*/
+}
+
+.parent-style-one a {
+    font-size: 12px;
+    /*font-family: Consolas;*/
+}
+
+.parent-style-one input {
+    font-size: 12px;
+    /*font-family: Consolas;*/
+}
+
+.parent-style-one span {
+    font-size: 12px;
+    /*font-family: Consolas;*/
+}
+
+.parent-style-one label {
+    font-size: 12px;
+    /*font-family: Consolas;*/
+}
+
+.parent-style-one dt {
+    font-size: 12px;
+    /*font-family: Consolas;*/
+}

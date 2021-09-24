@@ -1,0 +1,148 @@
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\ApplicationInsights.config
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\csc.exe
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\vbc.exe
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\WebMvc.dll.config
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\WebMvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\WebMvc.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Antlr3.Runtime.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\cinetkit.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\FrameworkToolsDevelopment.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\jquery.mobile.mvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\log4net.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.Web.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Newtonsoft.Json.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\NGMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\ReportViewerForMvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Soriana.FWK.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.Helpers.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.Mvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.Optimization.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.Razor.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\WebGrease.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\DTMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.Unity.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\EDMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\NGMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Antlr3.Runtime.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\log4net.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.Web.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Newtonsoft.Json.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\Soriana.FWK.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.Helpers.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.Mvc.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.Optimization.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\System.Web.Razor.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\bin\DTMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\obj\Debug\MciaPorCaducarSorianaTienda.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\obj\Debug\WebMvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\WebMvc\obj\Debug\WebMvc.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\ApplicationInsights.config
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\csc.exe
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\vbc.exe
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\WebMvc.dll.config
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\WebMvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\WebMvc.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Antlr3.Runtime.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\cinetkit.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\FrameworkToolsDevelopment.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\jquery.mobile.mvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\log4net.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.Web.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Newtonsoft.Json.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\NGMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\ReportViewerForMvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Soriana.FWK.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.Helpers.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.Mvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.Optimization.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.Razor.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\WebGrease.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\DTMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.Unity.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\EDMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\NGMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Antlr3.Runtime.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\log4net.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.Web.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Newtonsoft.Json.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\Soriana.FWK.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.Helpers.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.Mvc.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.Optimization.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\System.Web.Razor.xml
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\bin\DTMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\obj\Debug\MciaPorCaducarSorianaTienda.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\obj\Debug\WebMvc.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\WebMvc\obj\Debug\WebMvc.pdb

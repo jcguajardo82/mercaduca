@@ -1,0 +1,445 @@
+﻿@{
+    Layout = "~/Shared/Views/_Layoutsinmenu.cshtml";
+}
+@Styles.Render("~/Content/css")
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-4">
+            @*<h3>Aplicativo de Transferencias y Mermas</h3>*@
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+    </div>
+</div>
+
+<div class="ibox-content">
+    <div class="panel-body">
+
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading" data-parent="#accordion" data-toggle="collapse" data-target="#collapseOne">
+                    <h4 class="panel-title accordion-toggle">
+                        1.-Consultas
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-3 col-md-3 col-lg-3">
+                                <div class="widget style1 navy-bg">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-binoculars fa-3x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-left vertical-align top">
+                                            <h3>
+                                                <a href="@Url.Action("index", "Consultas")">
+                                                    <span style="color:white;font-size:15px">Mermas por Periodo</span>
+                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" data-parent="#accordion" data-toggle="collapse" data-target="#collapseThree">
+                <h4 class="panel-title accordion-toggle">
+                    2. Captura
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa  fa-plus-square fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "CapturaUsuarios")">
+                                                <span style="color:white;font-size:15px">Captura de Usuarios responsables de Grupos de Categoría</span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" data-parent="#accordion" data-toggle="collapse" data-target="#collapseTwo">
+                <h4 class="panel-title accordion-toggle">
+                    3. Reportes de Transferencias y Mermas
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+
+
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-bus fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "Reportes",new { rpt="1" })" id="lnkCargoDev">
+                                                <span style="color:white;font-size:15px">Persecucion </span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-bus fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "Reportes",new { rpt="2" })" id="lnkReportes">
+                                                <span style="color:white;font-size:15px">Detalle Transf. Codigos</span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-bus fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "Reportes",new { rpt="3" })" id="lnkReportes">
+                                                <span style="color:white;font-size:15px">Detalle Transf. x Gpo. de Categ.</span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-bus fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "Reportes",new { rpt="4" })" id="lnkReportes">
+                                                <span style="color:white;font-size:15px">Detalle Transf. Tiendas</span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-bus fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "Reportes",new { rpt="5" })" id="lnkReportes">
+                                                <span style="color:white;font-size:15px">Detalle Mermas Conocidas</span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-bus fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "Reportes",new { rpt="6" })" id="lnkReportes">
+                                                <span style="color:white;font-size:15px">Edicion</span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-bus fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "Reportes",new { rpt="7" })" id="lnkReportes">
+                                                <span style="color:white;font-size:15px">Articulos Rematados</span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-bus fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "Reportes",new { rpt="8" })" id="lnkReportes">
+                                                <span style="color:white;font-size:15px">Articulos Autorizados TR Categ.</span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <div class="widget style1 navy-bg">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-bus fa-3x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-left vertical-align top">
+                                        <h3>
+                                            <a href="@Url.Action("index", "Reportes",new { rpt="9" })" id="lnkReportes">
+                                                <span style="color:white;font-size:15px">Articulos Autorizados TR Codigos</span>
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">Opcion</span>
+                <input type="text" class="form-control" id="optionSelected5" name="optionSelected5" @*onkeydown="optionSelected_onkeydown(event)"*@ placeholder="Selecciona una opcion" aria-describedby="basic-addon1">
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="~/Scripts/angular.js"></script>
+<script>
+
+    //$(document).ready(function () {
+    //    addEvent(document.getElementById("optionSelected5"), "keyup", whatKey);
+    //});
+
+    function myFunction(event) {
+        if (event.keyCode == 13) {   // '13' is the key code for enter
+            // do what you want to do when 'enter' is pressed :)
+            alert("enter angularjs");
+        }
+    }
+
+    function whatKey(evt) {
+        var eventReference = (typeof evt !== "undefined") ? evt : event;
+        var keyCode = eventReference.keyCode;
+        if (keyCode === 13) {
+            alert("La tecla Enter ha sido presionada.");
+            // Código para validar el formulario y enviarlo.
+        }
+        else if (keyCode === 9) {
+            alert("Se ha presionado la tecla Tabulador.");
+            // Código para, quizás, borrar el campo del formulario.
+        }
+    }
+
+    function optionSelected_onkeydown(e) {
+        var valueOption = $("#optionSelected").val();
+
+        if (e.which == 27) {
+
+
+            $("#myModal3").modal();
+        }
+        else {
+            if (e.which == 13) {
+
+                switch (valueOption) {
+                    case "1":
+                        var elemento = document.getElementById("collapseOne");
+                        elemento.className = "collapse in";
+                        var elemento = document.getElementById("collapseTwo");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseThree");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseFour");
+                        elemento.className = "collapse";
+                        break;
+
+                    case "171":
+                        var url = '@Url.Action("ConfGuiaAuditar_171", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "172":
+                        var url = '@Url.Action("ConfTarimaAudita_172", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "173":
+                        var url = '@Url.Action("AuditoriaInventario_173", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "174":
+                        var url = '@Url.Action("CierreAuditoria_174", "Menu")';
+                        window.location.href = url;
+                        break;
+                    case "175":
+                        var url = '@Url.Action("ImprimirAuditoria_175", "Menu")';
+                        window.location.href = url;
+                        break;
+
+                    case "2":
+                        var elemento = document.getElementById("collapseOne");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseTwo");
+                        elemento.className = "collapse in";
+                        var elemento = document.getElementById("collapseThree");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseFour");
+                        elemento.className = "collapse";
+
+                        break;
+                    case "3":
+                        var elemento = document.getElementById("collapseOne");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseTwo");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseThree");
+                        elemento.className = "collapse in";
+                        var elemento = document.getElementById("collapseFour");
+                        elemento.className = "collapse";
+
+                        break;
+                    case "4":
+                        var elemento = document.getElementById("collapseOne");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseTwo");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseThree");
+                        elemento.className = "collapse";
+                        var elemento = document.getElementById("collapseFour");
+                        elemento.className = "collapse in";
+
+
+                        break;
+                    default:
+                        Console.WriteLine("Default case");
+                        break;
+                }
+            }
+        }
+    }
+
+
+    function busquedaApartado() {
+        srchApartado
+        var _paramBusqueda = $("#ddlSrcApartado").val();
+        var _srchApartado = $("#srchApartado").val();
+        var _origen = "1";
+        //string origen, string paramBusqueda, string valorBusqueda
+        $.ajax({
+            url: '@Url.Action("Busqueda", "Menu")',
+            "type": "POST",
+            "cache": false,
+            "data":
+            {
+                "origen": _origen
+                , "paramBusqueda": _paramBusqueda
+                , "valorBusqueda": _srchApartado
+            },
+            "dataType": "json",
+            "success": function (data) {
+                window.location.href = "/BusquedaApartado";
+            }
+
+        });
+    }
+
+    function busquedaCliente() {
+        srchCliente
+        var _paramBusqueda = $("#ddlSrcCliente").val();
+        var _srchCliente = $("#srchCliente").val();
+        var _origen = "2";
+        //string origen, string paramBusqueda, string valorBusqueda
+        $.ajax({
+            url: '@Url.Action("Busqueda", "Menu")',
+            "type": "POST",
+            "cache": false,
+            "data":
+            {
+                "origen": _origen
+                , "paramBusqueda": _paramBusqueda
+                , "valorBusqueda": _srchCliente
+            },
+            "dataType": "json",
+            "success": function (data) {
+                window.location.href = "/Clientes";
+            }
+
+        });
+    }
+    function busquedaUbicacionAlm() {
+        srchApartado
+        var _paramBusquedaalm = $("#ddlSrcUbicacionalm").val();
+        var _srchUbicacionalm = $("#srchUbicacionalm").val();
+        var _origen = "3";
+        //string origen, string paramBusqueda, string valorBusqueda
+        $.ajax({
+            url: '@Url.Action("Busqueda", "Menu")',
+            "type": "POST",
+            "cache": false,
+            "data":
+            {
+                "origen": _origen
+                , "paramBusquedaalm": _paramBusquedaalm
+                , "valorBusquedaalm": _srchUbicacionalm
+            },
+            "dataType": "json",
+            "success": function (data) {
+                window.location.href = "/Ubicacion";
+            }
+
+        });
+    }
+</script>

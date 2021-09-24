@@ -1,0 +1,88 @@
+﻿<div class="row border-bottom white-bg">
+    <nav class="navbar navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <i class="fa fa-reorder"></i>
+            </button>
+            <a href="/" class="navbar-brand"><img src="~/Images/logo.png" width="150px" /></a>
+
+
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <!--<li class="active">
+                    <a aria-expanded="false" role="button" href="@Url.Action("Index", "Layouts")"> Back to main Layout page</a>
+                </li>  -->
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> REGISTRO DE SECOS <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="@Url.Action("ARRIBO TPTA", "Forms")">ARRIBO TPTA</a></li>
+                        <li><a href="@Url.Action("CONTROL MARCHAMOS", "Forms")">CONTROL MARCHAMOS</a></li>
+                        <li><a href="@Url.Action("CONFIRMA TARIMA", "Forms")">CONFIRMA TARIMA</a></li>
+                        <li><a href="@Url.Action("REG MCIA INCIDENC", "Forms")">REG MCIA INCIDENC</a></li>
+                        <li><a href="@Url.Action("SALIDA TPTA.", "Forms")">SALIDA TPTA.</a></li>
+                        <li><a href="@Url.Action("CERRAR EMBARQUE", "Forms")">CERRAR EMBARQUE</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="dropdown-header">AUDITORIA GUIA</li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a href="@Url.Action("ARRIBO TPTA", "Forms")">CONF GUIA AUDITAR</a></li>
+                        <li><a href="@Url.Action("ARRIBO TPTA", "Forms")">CONF TARIMA AUDITA</a></li>
+                        <li><a href="@Url.Action("Index", "AuditoriaInventario")">AUDITAR TARIMA</a></li>
+                        <li><a href="@Url.Action("ARRIBO TPTA", "Forms")">CIERRE AUDITORIA</a></li>
+                        <li><a href="@Url.Action("ARRIBO TPTA", "Forms")">IMPRIMIR AUDITORIA</a></li>
+
+
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> REGISTRO DE MCIA. <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="@Url.Action("DataTables", "Tables")">Tablas</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> SALIDA DE MCIA. <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="@Url.Action("index", "User")">GridView MVC</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> SUBPRODUCTOS. <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="">Menu item</a></li>
+                        <li><a href="">Menu item</a></li>
+                        <li><a href="">Menu item</a></li>
+                        <li><a href="">Menu item</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <a href="@Url.Action("Login", "Pages")">
+                        <i class="fa fa-sign-out"></i> Log out
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-top-links navbar-right" style="padding-top: 8px">
+                <form class="form-inline">
+                    <div class="input-group m-b form-group">
+                        <div class="input-group-btn ">
+                            <button data-toggle="dropdown" class="btn btn-white dropdown-toggle" type="button">Código <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Ticket</a></li>
+                                <li><a href="#">Promocion</a></li>
+                                <li><a href="#">Apartado</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Pedido</a></li>
+                                <li><a href="#">Acuse Recibo</a></li>
+                            </ul>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </nav>
+</div>

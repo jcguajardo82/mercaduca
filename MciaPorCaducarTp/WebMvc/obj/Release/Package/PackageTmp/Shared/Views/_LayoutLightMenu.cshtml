@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+
+    <style type="text/css">
+        /* The ruleset below (empty or otherwise) is required for the bug! */
+        .holder b {
+        }
+
+        .holder ~ span b {
+            background: red;
+        }
+
+        input[type="text"] {
+            font-size: 10px;
+            font-family: Consolas;
+            height: 11px;
+            width: 60px;
+        }
+
+        .parent-style-one input[type="text"] {
+            font-size: 10px;
+            font-family: Consolas;
+            height: 11px;
+            width: 60px;
+        }
+
+        .parent-style-one input {
+            font-size: 10px;
+            font-family: Consolas;
+            height: 11px;
+            width: 60px;
+        }
+
+        .parent-style-one a {
+            font-size: 10px;
+            font-family: Consolas;
+        }
+
+        .parent-style-one input {
+            font-size: 10px;
+            font-family: Consolas;
+        }
+
+        .parent-style-one span {
+            font-size: 10px;
+            font-family: Consolas;
+        }
+
+        .parent-style-one label {
+            font-size: 10px;
+            font-family: Consolas;
+        }
+
+
+        .parent-style-one dt {
+            font-size: 12px;
+            font-family: Consolas;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent-style-one">
+
+        @using (Html.BeginForm("UrlNavegation", "Menu", FormMethod.Get, new { id = "fTest", @class = "formulario-ua" }))
+        {
+            <table>
+                <tr>
+                    <td>
+                        <span class="input-group-addon" id="basic-addon1">Opcion</span>
+                    </td>
+                    <td>
+                        <input type="text" id="menuOption" name="menuOption" value="1" style="height: 18px;" onkeypress="menuOption_onkeypress(event)" placeholder="Selecciona una opcion">
+                    </td>
+                </tr>
+            </table>
+
+
+            <div>
+                @RenderBody()
+            </div>
+        }
+    </div>
+    @*@Scripts.Render("~/bundles/jquery")*@
+</body>
+</html>
+
+
+<script>
+
+    $(document).ready(function () {
+        document.getElementById("menuOption").focus();
+    });
+
+
+
+
+    function menuOption_onkeydown(e) {
+        var valueOption = $("#menuOption").val();
+        var keyCode = e.keyCode ? e.keyCode : e.which;
+
+
+        switch (keyCode) {
+
+            //atras
+            case 37:
+                break;
+                //adelante
+            case 39:
+
+                break;
+
+        }
+    }
+
+
+    function menuOption_onkeypress(e) {
+        var valueOption = $("#menuOption").val();
+        var keyCode = e.keyCode ? e.keyCode : e.which;
+
+
+        switch (keyCode) {
+            //enter
+            case 13:
+                //this.form.submit()
+                break;
+                //esc
+            case 27:
+                break;
+        }
+    }
+</script>

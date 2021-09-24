@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+@Styles.Render("~/ContentSite/css")
+    <input id="flagRedirec" value="@TempData["flagRedirec"]" style="visibility:hidden" />
+    <script>
+        var flagRedirec = document.getElementById('flagRedirec').value;
+        var actualUrl = window.location;
+        
+        var finalURL = actualUrl.pathname;
+        if ((!navigator.userAgent.indexOf("Opera") >= 0) && (!navigator.userAgent.indexOf("Mobile") >= 0) && (flagRedirec == "0")) {
+            var nave = navigator.userAgent;
+            var url = finalURL + '?Navegador=parametro-id';
+            url = url.replace("parametro-id", nave);
+            window.location = url;
+        }
+    </script>
+@Scripts.Render("~/ScriptsSite/js")
+    @*<style type="text/css">
+        /* The ruleset below (empty or otherwise) is required for the bug! */
+        .holder b {
+        }
+
+        .holder ~ span b {
+            background: red;
+        }
+
+        input[type="text"] {
+            font-size: 10px;
+            font-family: Consolas;
+            height: 11px;
+            width: 60px;
+        }
+
+        .parent-style-one input[type="text"] {
+            font-size: 10px;
+            font-family: Consolas;
+            height: 11px;
+            width: 60px;
+        }
+
+        .parent-style-one input {
+            font-size: 10px;
+            font-family: Consolas;
+            height: 11px;
+            width: 60px;
+        }
+
+        .parent-style-one a {
+            font-size: 10px;
+            font-family: Consolas;
+        }
+
+        .parent-style-one input {
+            font-size: 10px;
+            font-family: Consolas;
+        }
+
+        .parent-style-one span {
+            font-size: 10px;
+            font-family: Consolas;
+        }
+
+        .parent-style-one label {
+            font-size: 10px;
+            font-family: Consolas;
+        }
+
+
+        .parent-style-one dt {
+            font-size: 12px;
+            font-family: Consolas;
+        }
+    </style>*@
+</head>
+<body  onload="funReady()">
+    <div class="barra"></div>
+    <div class="parent-style-one">
+
+        @*@using (Html.BeginForm("UrlNavegation", "Menu", FormMethod.Get, new { id = "fTest", @class = "formulario-ua" }))
+            {*@
+        <table>
+            <tr>
+                <td>
+                    <span class="input-group-addon" id="basic-addon1">Opción</span>
+                </td>
+                <td>
+                    <input type="text" id="menuOption" name="menuOption" onkeyup="Nav()" placeholder="Selecciona una opción" aria-describedby="basic-addon1">
+                </td>
+            </tr>
+        </table>
+
+
+        <div>
+            @RenderBody()
+        </div>
+        @*}*@
+    </div>
+
+    <a href="#" id="B" onclick="CheckFocus();return false;" style="text-decoration:none;color:#ffffff;"></a>
+
+    <input type="hidden" id="FocusOn" name="FocusOn" value="menuOption" />
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+</body>
+</html>
+
+
+<script>
+    debugger;
+    var IsOperaMobile = (navigator.userAgent.indexOf("Opera") >= 0) && (navigator.userAgent.indexOf("Mobile") >= 0)
+
+    var tFocus = setTimeout(SetFocus, 500);
+
+    function SetFocus() {
+        document.getElementById('B').click();
+        tFocus = null;
+    }
+
+    function CheckFocus() {
+        var focusOn = document.getElementById('FocusOn');
+        if (focusOn) {
+            if (focusOn.value != "") {
+                document.getElementById(focusOn.value).focus()
+            }
+        }
+    }
+
+    function funReady() {
+        if (IsOperaMobile) {
+
+        }
+        else {
+            document.getElementById("menuOption").focus();
+        }
+
+    }
+
+    function Nav() {
+        var opcion = document.getElementById("menuOption").value;
+
+        if (IsOperaMobile) {
+            switch (opcion) {
+                case "L":
+                case "l":
+                    var link = document.createElement('a');
+                    var url = '@Url.Action("logOut", "Menu")';
+                    link.href = url;
+                    document.body.appendChild(link);
+                    link.click();
+                    break;
+                case "H":
+                case "h":
+                    var link = document.createElement('a');
+                    var url = '@Url.Action("pagLog", "Menu")';
+                    link.href = url;
+                    document.body.appendChild(link);
+                    link.click();
+                    break;
+                case "0":
+                    var url = '@Url.Action("Inicio","Menu")';
+                    window.location.href = url;
+                    break;
+                case "1":
+                    var url = '@Url.Action("Index", "AltayMantenimientoUbicaciones")';
+                    window.location.href = url;
+                    break;
+                case "2":
+                    var url = '@Url.Action("GeneracionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                    window.location.href = url;
+                    break;
+                case "3":
+                    var url = '@Url.Action("ImpresionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                    window.location.href = url;
+                    break;
+            }
+        }
+        else {
+            if (event.keyCode == 13) {
+                switch (opcion) {
+                    case "L":
+                    case "l":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("logOut", "Menu")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    case "H":
+                    case "h":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("pagLog", "Menu")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    case "0":
+                        var url = '@Url.Action("Inicio","Menu")';
+                        window.location.href = url;
+                        break;
+                    case "1":
+                        var url = '@Url.Action("Index", "AltayMantenimientoUbicaciones")';
+                        window.location.href = url;
+                        break;
+                    case "2":
+                        var url = '@Url.Action("GeneracionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                        window.location.href = url;
+                        break;
+                    case "3":
+                        var url = '@Url.Action("ImpresionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                        window.location.href = url;
+                        break;
+                }
+            }
+        }
+    }
+
+
+    function menuOption_onkeypress(e) {
+        var valueOption = document.getElementById("menuOption").value;
+        var keyCode = e.keyCode ? e.keyCode : e.which;
+        switch (keyCode) {
+            //enter
+            case 13:
+                switch (valueOption) {
+                    case "0":
+                        var url = '@Url.Action("Inicio")';
+                        window.location.href = url;
+                        break;
+                    case "1":
+                        var url = '@Url.Action("Index", "AltayMantenimientoUbicaciones")';
+                        window.location.href = url;
+                        break;
+                    case "2":
+                        var url = '@Url.Action("GeneracionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                        window.location.href = url;
+                        break;
+                    case "3":
+                        var url = '@Url.Action("ImpresionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                        window.location.href = url;
+                        break;
+                }
+                break;
+                //esc
+            case 27:
+                break;
+        }
+    }
+</script>

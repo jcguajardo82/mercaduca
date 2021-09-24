@@ -1,0 +1,78 @@
+﻿<div class="row border-bottom white-bg">
+    <nav class="navbar navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            @*<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <i class="fa fa-reorder"></i>
+            </button>
+            <a href="/" class="navbar-brand">
+                <img style="width: 150px"  src="~/Images/logo.png" /></a>*@
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Opcion</span>
+                        <input type="text" class="form-control" id="optionSelected" name="optionSelected" onkeydown="optionSelected_onkeydown(event)" placeholder="Selecciona una opcion" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <!--<li class="active">
+                    <a aria-expanded="false" role="button" href="@Url.Action("Index", "Layouts")"> Back to main Layout page</a>
+                </li>  -->
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> CAPTURA <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="@Url.Action("Index", "AltaRegistro")">Alta de Registro</a></li>
+                        <li><a href="@Url.Action("Index", "Forms")">Etiquetas de Marcaje</a></li>
+                        <li><a href="@Url.Action("Index", "Forms")">Código Seleccionado</a></li>
+                        <li><a href="@Url.Action("Index", "Forms")">Artículos Exhibición</a></li>
+                        <li><a href="@Url.Action("Index", "Forms")">Etiquetas de Marcaje</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> CONSULTA <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="@Url.Action("DataTables", "Tables")">Auditorias de Rol Pendientes</a></li>
+                        <li><a href="@Url.Action("DataTables", "Tables")">Consulta General Auditoria</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> IMPRESION <span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="@Url.Action("Impresión de Etiquetas", "User")">Impresión de Etiquetas</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <a href="@Url.Action("Login", "Pages")">
+                        <i class="fa fa-sign-out"></i> Log out
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-top-links navbar-right" style="padding-top: 8px">
+                <form class="form-inline">
+                    <div class="input-group m-b form-group">
+                        <div class="input-group-btn ">
+                            <button data-toggle="dropdown" class="btn btn-white dropdown-toggle" type="button">Código <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Ticket</a></li>
+                                <li><a href="#">Promocion</a></li>
+                                <li><a href="#">Apartado</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Pedido</a></li>
+                                <li><a href="#">Acuse Recibo</a></li>
+                            </ul>
+                        </div>
+                        <input type="text" class="form-control">
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </nav>
+</div>

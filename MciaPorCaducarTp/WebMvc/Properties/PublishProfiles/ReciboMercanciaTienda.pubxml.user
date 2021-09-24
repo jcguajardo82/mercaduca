@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Proyectos\DeploySoriana\MercanciaPorCaducarTP</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="bin/cinetkit.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/DTMciaPorCaducarSorianaTienda.dll">
+      <publishTime>12/14/2017 18:14:24</publishTime>
+    </File>
+    <File Include="bin/DTTransferenciasYMermasSorianaTienda.dll">
+      <publishTime>10/17/2017 11:46:08</publishTime>
+    </File>
+    <File Include="bin/EDMciaPorCaducarSorianaTienda.dll">
+      <publishTime>12/14/2017 18:14:24</publishTime>
+    </File>
+    <File Include="bin/EDTransferenciasYMermasSorianaTienda.dll">
+      <publishTime>10/17/2017 11:46:08</publishTime>
+    </File>
+    <File Include="bin/FrameworkToolsDevelopment.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/jquery.mobile.mvc.dll">
+      <publishTime>02/04/2014 15:04:12</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>06/06/2016 15:40:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>06/06/2016 10:45:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>06/06/2016 10:42:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.DLL">
+      <publishTime>03/05/2013 12:19:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="bin/NGMciaPorCaducarSorianaTienda.dll">
+      <publishTime>12/14/2017 18:14:25</publishTime>
+    </File>
+    <File Include="bin/NGTransferenciasYMermasSorianaTienda.dll">
+      <publishTime>10/18/2017 18:22:04</publishTime>
+    </File>
+    <File Include="bin/ReportViewerForMvc.dll">
+      <publishTime>04/21/2014 10:23:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/Soriana.FWK.dll">
+      <publishTime>09/22/2017 12:48:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/17/2013 17:03:52</publishTime>
+    </File>
+    <File Include="bin/WebMvc.dll">
+      <publishTime>12/14/2017 18:14:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/01/2017 09:52:14</publishTime>
+    </File>
+    <File Include="Content/email.css">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Content/LayoutLight.css">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/03/2017 11:38:10</publishTime>
+    </File>
+    <File Include="Content/SiteLight.css">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/cinetkit.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/FrameworkToolsDevelopment.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/log4net.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.EnterpriseLibrary.Caching.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.EnterpriseLibrary.Logging.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.EnterpriseLibrary.Security.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.Unity.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Microsoft.Practices.Unity.Interception.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Newtonsoft.Json.dll">
+      <publishTime>08/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Dll_Enterprise/Soriana.FWK.dll">
+      <publishTime>09/22/2017 12:48:54</publishTime>
+    </File>
+    <File Include="fonts/Courier.eot">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courier.otf">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courier.ttf">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courier.woff">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courier.woff2">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courierbd.otf">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courierbd.ttf">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courierbi.otf">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courierbi.ttf">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courieri.otf">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/Courieri.ttf">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Images/logo.png">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Images/Soriana.png">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="MciaPorCaducar/Views/AutorizaMerma.cshtml">
+      <publishTime>11/03/2017 11:45:28</publishTime>
+    </File>
+    <File Include="MciaPorCaducar/Views/CapturaMcia.cshtml">
+      <publishTime>11/01/2017 11:43:58</publishTime>
+    </File>
+    <File Include="Menu/Views/Error.cshtml">
+      <publishTime>09/06/2017 13:23:18</publishTime>
+    </File>
+    <File Include="Menu/Views/Index.cshtml">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Menu/Views/Inicio.cshtml">
+      <publishTime>12/14/2017 16:51:54</publishTime>
+    </File>
+    <File Include="Menu/Views/Inicio_1_1.cshtml">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Menu/Views/Inicio_2.cshtml">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Menu/Views/Inicio_3.cshtml">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Menu/Views/Inicio_4.cshtml">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Menu/Views/Inicio_6_1.cshtml">
+      <publishTime>10/17/2017 17:02:41</publishTime>
+    </File>
+    <File Include="Menu/Views/Inicio_7.cshtml">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Menu/Views/Inicio_7_1.cshtml">
+      <publishTime>10/17/2017 17:03:36</publishTime>
+    </File>
+    <File Include="Menu/Views/Navegacion.cshtml">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Menu/Views/Navegacion2.cshtml">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="ReportViewerWebForm.aspx">
+      <publishTime>08/28/2017 17:44:04</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/01/2017 09:52:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.min.js">
+      <publishTime>09/01/2017 09:52:20</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>08/28/2017 17:44:05</publishTime>
+    </File>
+    <File Include="Scripts/Site.js">
+      <publishTime>10/20/2017 09:43:37</publishTime>
+    </File>
+    <File Include="Service References/SolTansf/WebMvc.SolTansf.AsignarFolioSolicitudTransferenciaResponse.datasource">
+      <publishTime>09/18/2017 14:34:31</publishTime>
+    </File>
+    <File Include="Service References/SolTansf/WebMvc.SolTansf.CambiarEstatusSolicitudTransferenciaResponse.datasource">
+      <publishTime>09/18/2017 14:34:30</publishTime>
+    </File>
+    <File Include="Service References/SolTansf/WebMvc.SolTansf.CrearFolioSolicitudTransferenciaResponse.datasource">
+      <publishTime>09/18/2017 14:34:30</publishTime>
+    </File>
+    <File Include="Service References/SolTansf/WebMvc.SolTansf.ModificarArticuloSolicitudTransferenciaResponse.datasource">
+      <publishTime>09/18/2017 14:34:30</publishTime>
+    </File>
+    <File Include="Service References/SolTansf/WebMvc.SolTansf.ObtenerListaSolicitudesTransferenciaAutorizarResponse.datasource">
+      <publishTime>09/18/2017 14:34:31</publishTime>
+    </File>
+    <File Include="Service References/SolTansf/WebMvc.SolTansf.ObtenerListaSolicitudesTransferenciaEditarResponse.datasource">
+      <publishTime>09/18/2017 14:34:30</publishTime>
+    </File>
+    <File Include="Service References/SolTansf/WebMvc.SolTansf.ObtenerListaSolicitudesTransferenciaSurtirResponse.datasource">
+      <publishTime>09/18/2017 14:34:31</publishTime>
+    </File>
+    <File Include="Service References/SolTansf/WebMvc.SolTansf.ObtenerSolicitudTransferenciaResponse.datasource">
+      <publishTime>09/18/2017 14:34:30</publishTime>
+    </File>
+    <File Include="Service References/SolTansf/WebMvc.SolTansf.SolicitudTransferencia.datasource">
+      <publishTime>09/18/2017 14:34:29</publishTime>
+    </File>
+    <File Include="Shared/Views/_Footer.cshtml">
+      <publishTime>08/28/2017 17:44:05</publishTime>
+    </File>
+    <File Include="Shared/Views/_Layout.cshtml">
+      <publishTime>10/27/2017 10:46:12</publishTime>
+    </File>
+    <File Include="Shared/Views/_LayoutLight.cshtml">
+      <publishTime>08/31/2017 13:11:49</publishTime>
+    </File>
+    <File Include="Shared/Views/_LayoutLightMenu.cshtml">
+      <publishTime>08/28/2017 17:44:05</publishTime>
+    </File>
+    <File Include="Shared/Views/_Layoutsinmenu.cshtml">
+      <publishTime>08/28/2017 17:44:05</publishTime>
+    </File>
+    <File Include="Shared/Views/_Layout_2.cshtml">
+      <publishTime>08/28/2017 17:44:05</publishTime>
+    </File>
+    <File Include="Shared/Views/_SkinConfig.cshtml">
+      <publishTime>08/28/2017 17:44:05</publishTime>
+    </File>
+    <File Include="Shared/Views/_TopNavbar2.cshtml">
+      <publishTime>08/28/2017 17:44:05</publishTime>
+    </File>
+    <File Include="Shared/Views/_TopNavbar3.cshtml">
+      <publishTime>08/28/2017 17:44:05</publishTime>
+    </File>
+    <File Include="Shared/_ViewStart.cshtml">
+      <publishTime>08/28/2017 17:44:05</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/AutTranfMerma.cshtml">
+      <publishTime>10/19/2017 09:39:02</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/ConsultaCambiosFis.cshtml">
+      <publishTime>10/19/2017 09:40:52</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/EntradaAPiso.cshtml">
+      <publishTime>10/19/2017 09:40:52</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/EntreCodigos.cshtml">
+      <publishTime>10/19/2017 09:40:52</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/EntreDepto.cshtml">
+      <publishTime>10/19/2017 09:41:49</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/EntreTiendas.cshtml">
+      <publishTime>10/19/2017 09:39:02</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/Mermas.cshtml">
+      <publishTime>10/19/2017 09:41:49</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/SalidaDePiso.cshtml">
+      <publishTime>10/19/2017 09:42:19</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/SolNueva.cshtml">
+      <publishTime>10/13/2017 12:57:54</publishTime>
+    </File>
+    <File Include="TransfMerma/Views/SurtirSol.cshtml">
+      <publishTime>08/31/2017 16:05:37</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/30/2017 12:44:05</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>08/30/2017 12:44:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/07/2017 16:01:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

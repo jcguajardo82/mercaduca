@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Inicio</title>
+    @Styles.Render("~/OperaContentBootstrap/css")
+    @Scripts.Render("~/OperaScriptBootstrap/js")
+
+</head>
+<body onload="checkbody()">
+    <form id="formMenu" action="@Url.Action("Inicio", "Menu")" method="get">
+        <div class="cont">
+            <div class="barraTitulo">
+                <table>
+                    <tr>
+                        <td style="width:10%;">
+                            <button type="button" class="btn-xs btn-default" onclick="FuncionAtras();"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></button>
+                        </td>
+                        <td class="m-t text-center">
+                            <label>Menú Mercancia por Caducar</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label>Opción</label>
+                        <input type="text" id="menuOption" name="menuOption" onkeyup="inOp(event)" placeholder="Selecciona una opción" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <dl>
+                            @{
+                                int index = 1;
+                                foreach (var menu in ViewBag.listMenu)
+                                {
+                                    string menuNom = menu.Nombre;
+                                    string idNom = menuNom.Split('.').First();
+
+                                    string numero = idNom + ".-";
+                                    string titulo = menuNom.Split('-').Last().ToLower();
+                                    <dt>
+
+                                        <span><b><a id="@idNom" class="textCapitalize" href="/@Session["srvName"]@menu.URL?urlDestino=@menu.Id_Menu">@numero @titulo</a></b></span>
+
+                                    </dt>
+                                    index++;
+                                }
+
+                            }
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+
+            <input id="urlDestino" name="urlDestino" value="" style="visibility:hidden" />
+
+            <a href="#" id="B" onclick="CheckFocus();return false;" style="text-decoration:none;color:#ffffff;"></a>
+
+            <input type="hidden" id="FocusOn" name="FocusOn" value="menuOption" />
+        </div>
+    </form>
+
+
+    <script>
+        var IsOperaMobile = (navigator.userAgent.indexOf("Opera") >= 0) && (navigator.userAgent.indexOf("Mobile") >= 0)
+
+        var tFocus = setTimeout(SetFocus, 1000);
+
+        function SetFocus() {
+            document.getElementById('B').click();
+            tFocus = null;
+        }
+
+        function CheckFocus() {
+            var focusOn = document.getElementById('FocusOn');
+            if (focusOn) {
+                if (focusOn.value != "") {
+                    document.getElementById(focusOn.value).focus()
+                }
+            }
+        }
+
+        function FuncionAtras() {
+            debugger;
+            var link = document.createElement('a');
+            var url = '@Url.Action("Inicio", "Menu")';
+            link.href = url;
+            document.body.appendChild(link);
+            link.click();
+        }
+
+        function inOp(e) {
+            var valueOption = document.getElementById("menuOption").value;
+            var keyCode = e.keyCode ? e.keyCode : e.which;
+
+            if (IsOperaMobile) {
+                //esc
+                if (event.keyCode == 83 || event.keyCode == 115) {
+                    var url = '@Url.Action("Inicio","Menu")';
+                    window.location.href = url;
+                }
+                    //enter
+                else {
+                    switch (valueOption) {
+                        case "L":
+                        case "l":
+                            var link = document.createElement('a');
+                            var url = '@Url.Action("logOut", "Menu")';
+                            link.href = url;
+                            document.body.appendChild(link);
+                            link.click();
+                            break;
+                        case "H":
+                        case "h":
+                            var link = document.createElement('a');
+                            var url = '@Url.Action("pagLog", "Menu")';
+                            link.href = url;
+                            document.body.appendChild(link);
+                            link.click();
+                            break;
+                        case "0":
+                            var url = '@Url.Action("Inicio", "Menu")';
+                            window.location.href = url;
+                            break;
+                        default:
+                            document.getElementById("urlDestino").value = document.getElementById("menuOption").value;
+                            var op = document.getElementById("urlDestino").value;
+                            document.getElementById("menuOption").value = "";
+                            // alert(document.getElementById("urlDestino").value);
+                            document.getElementById(op).click();
+                            break;
+                    }
+                }
+            }
+            else {
+                switch (keyCode) {
+                    //enter
+                    case 13:
+                        switch (valueOption) {
+                            case "L":
+                            case "l":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("logOut", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "H":
+                            case "h":
+                                var link = document.createElement('a');
+                                var url = '@Url.Action("pagLog", "Menu")';
+                                link.href = url;
+                                document.body.appendChild(link);
+                                link.click();
+                                break;
+                            case "0":
+                                var url = '@Url.Action("Inicio", "Menu")';
+                                window.location.href = url;
+                                break;
+                            default:
+                                document.getElementById("urlDestino").value = document.getElementById("menuOption").value;
+                                var op = document.getElementById("urlDestino").value;
+                                document.getElementById("menuOption").value = "";
+                                // alert(document.getElementById("urlDestino").value);
+                                document.getElementById(op).click();
+                                break;
+                        }
+                        break;
+                        //esc
+                    case 27:
+                        var url = '@Url.Action("Inicio","Menu")';
+                        window.location.href = url;
+                        break;
+                }
+            }
+        }
+
+        function myJavaScriptFunction(myMessage) {
+            document.getElementById("urlDestino").value = myMessage;
+
+            document.getElementById("formMenu").submit();
+
+        }
+
+        function funReady() {
+
+            //document.getElementById("menuOption").focus();
+
+            if (document.getElementById("flagError").value != "") {
+
+                document.getElementById("Error").style.display = "block";
+
+                var ele = document.getElementById("Principal");
+                ele.style.display = "none";
+
+                document.body.style.backgroundColor = "gray";
+                document.getElementById("btnOk").focus();
+            }
+            else {
+                document.getElementById("menuOption").focus();
+            }
+        }
+
+        function FuncionOK() {
+            debugger;
+            document.body.style.backgroundColor = "white";
+            document.getElementById("Error").style.display = "none";
+            document.getElementById("flagError").value = "";
+
+            document.getElementById("Principal").style.display = "block";
+            document.getElementById("menuOption").focus();
+        }
+
+    </script>
+</body>
+</html>

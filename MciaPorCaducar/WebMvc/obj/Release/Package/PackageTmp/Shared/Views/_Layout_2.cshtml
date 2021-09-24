@@ -1,0 +1,136 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/ContentSite/css")
+    <input id="flagRedirec" value="@TempData["flagRedirec"]" style="visibility:hidden" />
+    <script>
+        var flagRedirec = document.getElementById('flagRedirec').value;
+        var actualUrl = window.location;
+        var finalURL = actualUrl.pathname;
+        if ((!navigator.userAgent.indexOf("Opera") >= 0) && (!navigator.userAgent.indexOf("Mobile") >= 0) && (flagRedirec == "0")) {
+            var nave = navigator.userAgent;
+            var url = finalURL + '?Navegador=parametro-id';
+            url = url.replace("parametro-id", nave);
+            window.location = url;
+        }
+    </script>
+    @Scripts.Render("~/ScriptsSite/js")
+</head>
+<body onload="funReady()">
+    <div class="barraTitulo">
+        <table>
+            <tr>
+                <td style="width:90%">@Session["TituloPagina"]</td>
+                @*<td style="width:10%; float:right"><input type="button" class="botonSalir" onclick="FuncionLogOut()" value="X" /></td>*@
+                <td><input type="text" id="inNav" name="inNav" style="width:25px;float: right;" onkeyup="Nav()" /></td>
+               
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+
+</body>
+</html>
+
+
+<script>
+
+    
+    function Nav() {
+        debugger;
+        var IsOperaMobile = (navigator.userAgent.indexOf("Opera") >= 0) && (navigator.userAgent.indexOf("Mobile") >= 0);
+        var opcion = document.getElementById("inNav").value;
+
+        if (IsOperaMobile) {
+            switch (opcion) {
+                case "L":
+                case "l":
+                    var link = document.createElement('a');
+                    var url = '@Url.Action("logOut", "Menu")';
+                    link.href = url;
+                    document.body.appendChild(link);
+                    link.click();
+                    break;
+                case "H":
+                case "h":
+                    var link = document.createElement('a');
+                    var url = '@Url.Action("pagLog", "Menu")';
+                    link.href = url;
+                    document.body.appendChild(link);
+                    link.click();
+                    break;
+                case "0":
+                    var url = '@Url.Action("Inicio","Menu")';
+                    window.location.href = url;
+                    break;
+                case "1":
+                    var url = '@Url.Action("Index", "AltayMantenimientoUbicaciones")';
+                    window.location.href = url;
+                    break;
+                case "2":
+                    var url = '@Url.Action("GeneracionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                    window.location.href = url;
+                    break;
+                case "3":
+                    var url = '@Url.Action("ImpresionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                    window.location.href = url;
+                    break;
+            }
+        }
+        else {
+            if (event.keyCode == 13) {
+                switch (opcion) {
+                    case "L":
+                    case "l":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("logOut", "Menu")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    case "H":
+                    case "h":
+                        var link = document.createElement('a');
+                        var url = '@Url.Action("pagLog", "Menu")';
+                        link.href = url;
+                        document.body.appendChild(link);
+                        link.click();
+                        break;
+                    case "0":
+                        var url = '@Url.Action("Inicio","Menu")';
+                        window.location.href = url;
+                        break;
+                    case "1":
+                        var url = '@Url.Action("Index", "AltayMantenimientoUbicaciones")';
+                        window.location.href = url;
+                        break;
+                    case "2":
+                        var url = '@Url.Action("GeneracionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                        window.location.href = url;
+                        break;
+                    case "3":
+                        var url = '@Url.Action("ImpresionDeEtiquetaEnPisoDeVenta", "AltayMantenimientoUbicaciones")';
+                        window.location.href = url;
+                        break;
+                }
+            }
+        }
+    }
+
+    function FuncionLogOut() {
+        debugger;
+        var link = document.createElement('a');
+        var url = '@Url.Action("logOut", "Menu", new { }, null)';
+        var link = document.createElement('a');
+        //url = url.replace("param-id", ced);
+        link.href = url;
+        document.body.appendChild(link);
+        link.click();
+    }
+    </script>

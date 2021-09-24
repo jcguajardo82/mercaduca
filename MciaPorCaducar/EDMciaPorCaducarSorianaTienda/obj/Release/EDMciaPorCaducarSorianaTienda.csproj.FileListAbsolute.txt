@@ -1,0 +1,15 @@
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\obj\Release\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\obj\Release\EDMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\obj\Release\EDMciaPorCaducarSorianaTienda.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\obj\Release\EDMciaPorCaducarSorianaTienda.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\obj\Release\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Soriana\MERCANCIA POR CADUCAR MOVIL OLD\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\obj\Release\EDMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Migrados Movil\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Migrados Movil\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\bin\Release\EDMciaPorCaducarSorianaTienda.pdb
+C:\Users\Allware Solutions\Documents\TFS Migrados Movil\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\obj\Release\EDMciaPorCaducarSorianaTienda.csprojResolveAssemblyReference.cache
+C:\Users\Allware Solutions\Documents\TFS Migrados Movil\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\obj\Release\EDMciaPorCaducarSorianaTienda.dll
+C:\Users\Allware Solutions\Documents\TFS Migrados Movil\MciaPorCaducar\EDMciaPorCaducarSorianaTienda\obj\Release\EDMciaPorCaducarSorianaTienda.pdb

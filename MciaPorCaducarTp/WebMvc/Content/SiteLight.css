@@ -1,0 +1,101 @@
+﻿/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body {
+            font-size: 12px;
+            font-family: Consolas;
+        }
+label {
+            font-size: 12px;
+            font-family: Consolas;
+        }
+
+*/
+
+@font-face {
+    font-family: 'Courier';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Courier.eot') format('eot');
+    src: url('../fonts/Courier.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/Courier.woff') format('woff'), 
+        url('../fonts/Courier.woff2') format('woff2'), 
+        url('../fonts/Courier.ttf') format('truetype');
+}
+
+body {
+    font-family: Courier, Monospace;
+    font-size: 11px;
+}
+
+#menuOption {
+    width: 40px;
+    font-family: Courier, Monospace;
+}
+
+a, a:hover, a:link, a:visited, a:active {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: Courier, Monospace;
+    color:blue;
+}
+
+span {
+    font-family: Courier, Monospace;
+    font-size: 11px;
+}
+
+input {
+    font-family: Courier, Monospace;
+    font-size: 11px;
+    width: 90px;
+    max-width:100px;
+    min-width:30px;
+}
+select{
+    font-family: Courier, Monospace;
+    font-size: 11px;
+    width: 90px;
+    max-width:100px;
+    min-width:30px;
+}
+
+table {
+    font-family: Courier, Monospace;
+    font-size: 11px;
+}
+
+label {
+    font-family: Courier, Monospace;
+    font-size: 11px;
+}
+
+table td:first-child {
+    width: 30%;
+}
+
+table td:nth-child(2) {
+    width: 30%;
+}
+/*.option{
+    width:40px
+}*/
+
+.barra{
+    height: 30px;color: red;border-color:red
+}
